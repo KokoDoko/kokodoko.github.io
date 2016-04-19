@@ -1,11 +1,15 @@
-# Build and Release Folders
-bin/
-bin-debug/
-bin-release/
+.DS_Store
 
-# Other files and folders
-.settings/
+# TODO : wel of niet source uploaden?
+# Kan ook via -add includen/excluden 
+# dev/
+# typings/
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# node modules zelf installeren via npm install. package.json moet wel aanwezig zijn
+node_modules/
+
+# VS Code settings ook online zetten
+# .vscode
+
+# Compile settings 
+# .tsconfig.json

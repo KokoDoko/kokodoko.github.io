@@ -2,6 +2,7 @@ body {
     background-color:#6C88FF;
     font-family: 'Press Start 2P', cursive;
     overflow:hidden;
+    color:white;
     margin:0px; padding:0px;
 }
 
@@ -52,4 +53,10 @@ snapbutton {
     background-image: url(../images/snapbutton_on.png);
     width: 369px; height: 38px;
     cursor: pointer;
+}
+
+about {
+    font-size: 14px;
+    bottom:10px;
+    padding:15px;
 }

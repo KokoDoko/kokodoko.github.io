@@ -155,6 +155,10 @@ var Game = (function () {
 }());
 window.addEventListener("load", function () {
     new Game();
+    if ('ontouchstart' in window) {
+        var el = document.getElementsByTagName("warning")[0];
+        el.style.visibility = "visible";
+    }
 });
 var Settings = (function () {
     function Settings() {

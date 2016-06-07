@@ -81,38 +81,43 @@ var DraggableDomObject = (function (_super) {
         _super.call(this, x, y, HTMLtagName);
         this.offSetX = 0;
         this.offSetY = 0;
-        this.htmlElement.addEventListener("mousedown", function (e) { return _this.drag(e); });
-        this.htmlElement.addEventListener("mouseup", function (e) { return _this.drop(e); });
-        this.mouseMoveBind = function (e) { return _this.updatePosition(e); };
+        this.htmlElement.addEventListener(Settings.down, function (e) { return _this.drag(e); });
+        this.htmlElement.addEventListener(Settings.up, function (e) { return _this.drop(e); });
+        this.moveBind = function (e) { return _this.updatePosition(e); };
         this.offSetX = offsetX;
         this.offSetY = offsetY;
         this.draw();
-        window.addEventListener("mousemove", this.mouseMoveBind);
+        window.addEventListener(Settings.move, this.moveBind);
     }
-    DraggableDomObject.prototype.drag = function (event) {
-        event.preventDefault();
+    DraggableDomObject.prototype.drag = function (e) {
+        e.preventDefault();
+        var event = new GameEvent(e);
+        this.htmlElement.parentElement.appendChild(this.htmlElement);
         if (event.altKey) {
             var go = new DraggableDomObject(this.x, this.y, this.htmlElement.tagName, event.offsetX, event.offsetY);
         }
         else {
             this.offSetX = event.offsetX;
             this.offSetY = event.offsetY;
-            window.addEventListener("mousemove", this.mouseMoveBind);
+            window.addEventListener(Settings.move, this.moveBind);
         }
     };
-    DraggableDomObject.prototype.updatePosition = function (event) {
+    DraggableDomObject.prototype.updatePosition = function (e) {
+        e.preventDefault();
+        var event = new GameEvent(e);
         this.x = event.clientX - this.offSetX;
         this.y = event.clientY - this.offSetY;
         this.draw();
     };
-    DraggableDomObject.prototype.drop = function (event) {
+    DraggableDomObject.prototype.drop = function (e) {
+        e.preventDefault();
+        var s = Settings.gridSize;
         if (Settings.snapping) {
-            var rounded = Math.floor(this.x / 54) * 54;
-            this.x = Math.round(this.x / 54) * 54;
-            this.y = Math.round(this.y / 54) * 54;
+            this.x = Math.round(this.x / s) * s;
+            this.y = Math.round(this.y / s) * s;
             this.draw();
         }
-        window.removeEventListener("mousemove", this.mouseMoveBind);
+        window.removeEventListener(Settings.move, this.moveBind);
     };
     return DraggableDomObject;
 }(DOMObject));
@@ -126,9 +131,11 @@ var MenuItem = (function (_super) {
         this.HTMLtagName = HTMLtagName;
         this.scale = Math.min(1, 54 / this.height, 54 / this.width);
         this.draw();
-        this.htmlElement.addEventListener("mousedown", function (e) { return _this.createElement(e); });
+        this.htmlElement.addEventListener(Settings.down, function (e) { return _this.createElement(e); });
     }
-    MenuItem.prototype.createElement = function (event) {
+    MenuItem.prototype.createElement = function (e) {
+        e.preventDefault();
+        var event = new GameEvent(e);
         var x = event.clientX - event.offsetX;
         var y = event.clientY - event.offsetY;
         var go = new DraggableDomObject(x, y, this.HTMLtagName, event.offsetX, event.offsetY);
@@ -149,21 +156,62 @@ var Menu = (function (_super) {
 }(DOMObject));
 var Game = (function () {
     function Game() {
+        if ('ontouchstart' in window) {
+            Settings.enableTouch();
+        }
+        var el = document.getElementsByTagName("about")[0];
+        el.innerHTML = el.innerHTML + " <br>Touch enabled: " + ('ontouchstart' in window);
         new Menu(this);
     }
     return Game;
 }());
+var GameEvent = (function () {
+    function GameEvent(e) {
+        this.clientX = 0;
+        this.clientY = 0;
+        this.offsetX = 0;
+        this.offsetY = 0;
+        this.altKey = false;
+        switch (e.type) {
+            case "mousedown":
+            case "mouseup":
+            case "mousemove":
+                var m = e;
+                this.clientX = m.clientX;
+                this.clientY = m.clientY;
+                this.offsetX = m.offsetX;
+                this.offsetY = m.offsetY;
+                this.altKey = m.altKey;
+                break;
+            case "touchstart":
+            case "touchend":
+            case "touchmove":
+                var allTouches = e;
+                var t = allTouches.targetTouches[0];
+                this.clientX = t.clientX;
+                this.clientY = t.clientY;
+            default:
+                console.log("Unknown event type :(");
+        }
+    }
+    return GameEvent;
+}());
 window.addEventListener("load", function () {
     new Game();
-    if ('ontouchstart' in window) {
-        var el = document.getElementsByTagName("warning")[0];
-        el.style.visibility = "visible";
-    }
 });
 var Settings = (function () {
     function Settings() {
     }
+    Settings.enableTouch = function () {
+        Settings.down = "touchstart";
+        Settings.up = "touchend";
+        Settings.move = "touchmove";
+    };
+    Settings.gridSize = 54;
     Settings.snapping = true;
+    Settings.down = "mousedown";
+    Settings.up = "mouseup";
+    Settings.move = "mousemove";
     return Settings;
 }());
 var SnapButton = (function (_super) {

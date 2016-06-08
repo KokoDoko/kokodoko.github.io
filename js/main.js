@@ -45,20 +45,6 @@ var GameObject = (function () {
     };
     return GameObject;
 }());
-var CanvasObject = (function (_super) {
-    __extends(CanvasObject, _super);
-    function CanvasObject(x, y, imageName) {
-        _super.call(this, x, y);
-        var canvas = document.getElementsByTagName("canvas")[0];
-        this.context = canvas.getContext('2d');
-        this.image = new Image();
-        this.image.src = imageName;
-    }
-    CanvasObject.prototype.draw = function () {
-        this.context.drawImage(this.image, this.x, this.y, this.width, this.height);
-    };
-    return CanvasObject;
-}(GameObject));
 var DOMObject = (function (_super) {
     __extends(DOMObject, _super);
     function DOMObject(x, y, HTMLtagName) {
@@ -76,30 +62,32 @@ var DOMObject = (function (_super) {
 }(GameObject));
 var DraggableDomObject = (function (_super) {
     __extends(DraggableDomObject, _super);
-    function DraggableDomObject(x, y, HTMLtagName, offsetX, offsetY) {
+    function DraggableDomObject(x, y, HTMLtagName, offx, offy) {
         var _this = this;
         _super.call(this, x, y, HTMLtagName);
         this.offSetX = 0;
         this.offSetY = 0;
-        this.htmlElement.addEventListener(Settings.down, function (e) { return _this.drag(e); });
-        this.htmlElement.addEventListener(Settings.up, function (e) { return _this.drop(e); });
+        this.offSetX = offx;
+        this.offSetY = offy;
         this.moveBind = function (e) { return _this.updatePosition(e); };
-        this.offSetX = offsetX;
-        this.offSetY = offsetY;
+        window.addEventListener(Settings.down, function (e) { return _this.initDrag(e); });
+        window.addEventListener(Settings.up, function (e) { return _this.stopDrag(e); });
         this.draw();
         window.addEventListener(Settings.move, this.moveBind);
     }
-    DraggableDomObject.prototype.drag = function (e) {
+    DraggableDomObject.prototype.initDrag = function (e) {
         e.preventDefault();
-        var event = new GameEvent(e);
-        this.htmlElement.parentElement.appendChild(this.htmlElement);
-        if (event.altKey) {
-            var go = new DraggableDomObject(this.x, this.y, this.htmlElement.tagName, event.offsetX, event.offsetY);
-        }
-        else {
-            this.offSetX = event.offsetX;
-            this.offSetY = event.offsetY;
-            window.addEventListener(Settings.move, this.moveBind);
+        if (e.target === this.htmlElement) {
+            var event_1 = new GameEvent(e);
+            this.htmlElement.parentElement.appendChild(this.htmlElement);
+            this.offSetX = event_1.clientX - this.x;
+            this.offSetY = event_1.clientY - this.y;
+            if (event_1.altKey) {
+                var go = new DraggableDomObject(this.x, this.y, this.htmlElement.tagName, this.offSetX, this.offSetY);
+            }
+            else {
+                window.addEventListener(Settings.move, this.moveBind);
+            }
         }
     };
     DraggableDomObject.prototype.updatePosition = function (e) {
@@ -109,21 +97,22 @@ var DraggableDomObject = (function (_super) {
         this.y = event.clientY - this.offSetY;
         this.draw();
     };
-    DraggableDomObject.prototype.drop = function (e) {
+    DraggableDomObject.prototype.stopDrag = function (e) {
+        window.removeEventListener(Settings.move, this.moveBind);
         e.preventDefault();
+        Settings.log("STOP DRAG:  remove listener: " + Settings.move);
         var s = Settings.gridSize;
         if (Settings.snapping) {
             this.x = Math.round(this.x / s) * s;
             this.y = Math.round(this.y / s) * s;
             this.draw();
         }
-        window.removeEventListener(Settings.move, this.moveBind);
     };
     return DraggableDomObject;
 }(DOMObject));
-var MenuItem = (function (_super) {
-    __extends(MenuItem, _super);
-    function MenuItem(x, y, HTMLtagName, game) {
+var MenuButton = (function (_super) {
+    __extends(MenuButton, _super);
+    function MenuButton(x, y, HTMLtagName, game) {
         var _this = this;
         _super.call(this, x, y, HTMLtagName);
         this.x = x;
@@ -131,16 +120,20 @@ var MenuItem = (function (_super) {
         this.HTMLtagName = HTMLtagName;
         this.scale = Math.min(1, 54 / this.height, 54 / this.width);
         this.draw();
-        this.htmlElement.addEventListener(Settings.down, function (e) { return _this.createElement(e); });
+        window.addEventListener(Settings.down, function (e) { return _this.createElement(e, _this); });
     }
-    MenuItem.prototype.createElement = function (e) {
+    MenuButton.prototype.createElement = function (e, inst) {
         e.preventDefault();
-        var event = new GameEvent(e);
-        var x = event.clientX - event.offsetX;
-        var y = event.clientY - event.offsetY;
-        var go = new DraggableDomObject(x, y, this.HTMLtagName, event.offsetX, event.offsetY);
+        if (e.target === this.htmlElement) {
+            var event_2 = new GameEvent(e);
+            var offx = event_2.clientX - this.x;
+            var offy = event_2.clientY - this.y;
+            var x = event_2.clientX - offx;
+            var y = event_2.clientY - offy;
+            var go = new DraggableDomObject(x, y, this.HTMLtagName, offx, offy);
+        }
     };
-    return MenuItem;
+    return MenuButton;
 }(DOMObject));
 var Menu = (function (_super) {
     __extends(Menu, _super);
@@ -148,7 +141,7 @@ var Menu = (function (_super) {
         _super.call(this, 0, 0, "menu");
         this.menuOptions = ["brick", "question", "cloud", "floor", "goomba", "pipe"];
         for (var i = 0; i < this.menuOptions.length; i++) {
-            var m = new MenuItem(i * 60 + 10, 10, this.menuOptions[i], game);
+            var m = new MenuButton(i * 60 + 10, 10, this.menuOptions[i], game);
         }
         var b = new SnapButton(420, 16);
     }
@@ -159,8 +152,6 @@ var Game = (function () {
         if ('ontouchstart' in window) {
             Settings.enableTouch();
         }
-        var el = document.getElementsByTagName("about")[0];
-        el.innerHTML = el.innerHTML + " <br>Touch enabled: " + ('ontouchstart' in window);
         new Menu(this);
     }
     return Game;
@@ -169,9 +160,9 @@ var GameEvent = (function () {
     function GameEvent(e) {
         this.clientX = 0;
         this.clientY = 0;
-        this.offsetX = 0;
-        this.offsetY = 0;
         this.altKey = false;
+        if (e.type != "touchmove" && e.type != "mousemove")
+            Settings.log("EVENT " + e.type);
         switch (e.type) {
             case "mousedown":
             case "mouseup":
@@ -179,19 +170,20 @@ var GameEvent = (function () {
                 var m = e;
                 this.clientX = m.clientX;
                 this.clientY = m.clientY;
-                this.offsetX = m.offsetX;
-                this.offsetY = m.offsetY;
                 this.altKey = m.altKey;
                 break;
+            case "touchcancel":
             case "touchstart":
-            case "touchend":
             case "touchmove":
                 var allTouches = e;
                 var t = allTouches.targetTouches[0];
                 this.clientX = t.clientX;
                 this.clientY = t.clientY;
+                break;
+            case "touchend":
+                break;
             default:
-                console.log("Unknown event type :(");
+                console.log("Unknown: " + e.type);
         }
     }
     return GameEvent;
@@ -206,12 +198,19 @@ var Settings = (function () {
         Settings.down = "touchstart";
         Settings.up = "touchend";
         Settings.move = "touchmove";
+        Settings.eventType = "touchEvent";
+    };
+    Settings.log = function (str) {
+        var el = document.getElementsByTagName("about")[0];
+        el.innerHTML = el.innerHTML + "<br>" + str;
+        console.log(str);
     };
     Settings.gridSize = 54;
     Settings.snapping = true;
     Settings.down = "mousedown";
     Settings.up = "mouseup";
     Settings.move = "mousemove";
+    Settings.eventType = "mouseEvent";
     return Settings;
 }());
 var SnapButton = (function (_super) {

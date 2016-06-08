@@ -100,7 +100,6 @@ var DraggableDomObject = (function (_super) {
     DraggableDomObject.prototype.stopDrag = function (e) {
         window.removeEventListener(Settings.move, this.moveBind);
         e.preventDefault();
-        Settings.log("STOP DRAG:  remove listener: " + Settings.move);
         var s = Settings.gridSize;
         if (Settings.snapping) {
             this.x = Math.round(this.x / s) * s;
@@ -161,8 +160,6 @@ var GameEvent = (function () {
         this.clientX = 0;
         this.clientY = 0;
         this.altKey = false;
-        if (e.type != "touchmove" && e.type != "mousemove")
-            Settings.log("EVENT " + e.type);
         switch (e.type) {
             case "mousedown":
             case "mouseup":
@@ -201,9 +198,6 @@ var Settings = (function () {
         Settings.eventType = "touchEvent";
     };
     Settings.log = function (str) {
-        var el = document.getElementsByTagName("about")[0];
-        el.innerHTML = el.innerHTML + "<br>" + str;
-        console.log(str);
     };
     Settings.gridSize = 54;
     Settings.snapping = true;

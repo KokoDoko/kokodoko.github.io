@@ -1,5 +1,6 @@
 html {
     cursor: url(../images/handcursor), pointer;
+    width:900px;
 }
 
 body {
@@ -8,14 +9,14 @@ body {
     overflow:hidden;
     color:white;
     margin:0px; padding:0px;
-    
+    width:900px;
 }
 
+/* all semantic game elements */
 body * {
     position: absolute;
     display: block;
     margin:0px; padding:0px;
-    width:900px;
     box-sizing: border-box;
     background-repeat: no-repeat;
     -moz-user-select: none;
@@ -61,15 +62,8 @@ snapbutton {
 }
 
 about {
-    font-size: 14px;
+    font-size: 12px;
     bottom:10px;
-    padding:15px;
-}
-
-warning {
-    visibility: hidden;
-    font-size: 18px;
-    top:90px;
     padding:15px;
 }
 

@@ -1,15 +1,3 @@
 .DS_Store
-
-# TODO : wel of niet source uploaden?
-# Kan ook via -add includen/excluden 
-# dev/
-# typings/
-
-# node modules zelf installeren via npm install. package.json moet wel aanwezig zijn
 node_modules/
-
-# VS Code settings ook online zetten
-# .vscode
-
-# Compile settings 
-# .tsconfig.json
+.vscode

@@ -2,20 +2,17 @@
 
 Creative coder and Lecturer
 
-This page is still being fiddled with... please bear with me!
-
  - I teach Creative Media and Game Technologies at the University of Rotterdam
  - I organise workshops and develop teaching materials
- - As a freelancer, I design and develop interactive work for corporate clients
- - In my spare time, I'm building an evil robot using Arduino and Machine Learning
+ - I design and develop interactive work for corporate clients
+ - I'm building an evil robot to do my laundry and take over the world
  
  # Lessons and workshops
  
- - Getting to grips with Object Oriented Programming
- - Building web games with Typescript
- - Building web apps with Vue and React
+ - Coding games and web apps with Typescript, Vue and React
+ - Building Internet of Things applications
  - Getting started with Unity
- - Practicing with machine learning algorithms
+ - Getting started with Machine Learning in Javascript
  
  # Work for Clients
  
@@ -23,10 +20,9 @@ This page is still being fiddled with... please bear with me!
  - Twitter visualisation for Heineken
  - Twitter sentiment visualisation for Nike
  - In-store digital signage for Vodafone, Jumbo and Pathe Cinema
- - Yearly results interactive visualisation for ING Bank
- - Interactive video booths for University of Groningen
- - Scientific e-learning game for University of Groningen
- - Twitter feed for Pecha Kucha in Tokyo
+ - Yearly results visualisation for ING Bank
+ - Interactive video booths and e-learning games for [Science Linx, University of Groningen](https://www.rug.nl/sciencelinx/)
+ - Twitter feed for [Pecha Kucha in Tokyo](https://www.pechakucha.com/cities/tokyo)
  
  # Side projects
 

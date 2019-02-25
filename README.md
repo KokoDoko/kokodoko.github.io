@@ -13,9 +13,9 @@ This page is still being fiddled with... please bear with me!
  
  - Getting to grips with Object Oriented Programming
  - Building web games with Typescript
- - Building a web app with Vue
+ - Building web apps with Vue and React
  - Getting started with Unity
- - Practicing with a machine learning algorithm
+ - Practicing with machine learning algorithms
  
  # Work for Clients
  
@@ -29,18 +29,19 @@ This page is still being fiddled with... please bear with me!
  - Twitter feed for Pecha Kucha in Tokyo
  
  # Side projects
- 
+
+- [Cat Generator using Machine Learning](http://projects.eerkmans.nl/cat/)
+- [Machine Learning reading list and workshop](https://github.com/HR-CMGT/TLE3-machine-learning)
 - [Creative Coding reading list](https://github.com/KokoDoko/creative-coding)
 - [Level editor built in Typescript](https://kokodoko.github.io/level-editor/)
-- Building a [super-tiny sampler and drum computer](https://www.youtube.com/watch?v=bWudBkCdCZA) with Raspberry Pi
-- Pac man lamp
-- Building [Rock-paper-scissors](https://www.youtube.com/watch?v=vHyVvPJeq6o) with Machine Learning
+- [Raspberry Pi sampler and drum computer](https://www.youtube.com/watch?v=bWudBkCdCZA)
+- [Pac man lamp](https://github.com/KokoDoko/PacmanLamp)
+- [Webcam rock-paper-scissors](https://www.youtube.com/watch?v=vHyVvPJeq6o) with Machine Learning
  
  # Contact
 
-<p align="center">
-  <a href="https://github.com/KokoDoko">GitHub</a> |
-  <a href="https://www.linkedin.com/in/eerkmans/">LinkedIn</a> |
-  <a href="https://twitter.com/eerk">Twitter</a> |
-  <a href="https://stackoverflow.com/users/1083572/kokodoko">Stackoverflow</a>
-</p>
+- [Github](https://github.com/KokoDoko)
+- [LinkedIn](https://www.linkedin.com/in/eerkmans/)
+- [Twitter](https://twitter.com/eerk)
+- [Stackoverflow](https://stackoverflow.com/users/1083572/kokodoko)
+- [CMGT Rotterdam](https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/creative-media-and-game-technologies/voltijd/)

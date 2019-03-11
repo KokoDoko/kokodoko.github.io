@@ -33,6 +33,7 @@ Creative coder and Lecturer
 - [Raspberry Pi sampler and drum computer](https://www.youtube.com/watch?v=bWudBkCdCZA)
 - [Pac man lamp](https://github.com/KokoDoko/PacmanLamp)
 - [Webcam rock-paper-scissors](https://www.youtube.com/watch?v=vHyVvPJeq6o) with Machine Learning
+- [Pixel Art City Generator](http://juulbarnard.nl/)
  
  # Contact
 

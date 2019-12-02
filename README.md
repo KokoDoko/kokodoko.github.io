@@ -17,6 +17,16 @@ Robot Royale - Online Multiplayer programmming game | Phaser Local Multiplayer G
 ![](./images/arcade.png)  |  ![](./images/machine.png)
 Online Arcade Cabinet for student games | Machine Learning Algorithms Workshop
 
+ ## Lecture subjects
+ 
+ - Introduction to Machine Learning
+ - Getting to know Web Components
+ - Learning OOP with Typescript
+ - Learning React and Vue
+ - Machine Learning for the web
+ - Building web games with Typescript and Phaser
+ - Internet of Things devices with Arduino and Javascript
+
 ## Freelance Projects
 
 |  |  |
@@ -34,18 +44,7 @@ Pixel City Generator | Emoji Art Generator
 
 ![](./images/clients.jpg)
 
- ## University Lectures 
- 
- - Introduction to Machine Learning
- - Getting to know Web Components
- - Learning OOP with Typescript
- - Learning React and Vue
- - Machine Learning for the web
- - Building web games with Typescript and Phaser
- - Internet of Things devices with Arduino and Javascript
- 
-
- ## Repositories
+## Repositories
  
 - [Machine Learning reading list](https://github.com/KokoDoko/creative-coding)
 - [Creative Coding reading list](https://github.com/KokoDoko/creative-coding)

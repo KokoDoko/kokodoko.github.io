@@ -2,7 +2,7 @@
 
 ## Creative Technologist | Lecturer 
 
-[Creative Media and Game Technologies | Rotterdam University for Applied Sciences](https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/creative-media-and-game-technologies/voltijd/)
+[Creative Media and Game Technologies - Rotterdam University for Applied Sciences](https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/creative-media-and-game-technologies/voltijd/)
 
 ![cmgt](./images/cmgt_small.png)
 

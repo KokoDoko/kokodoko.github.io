@@ -45,10 +45,10 @@ Pixel City Generator | Emoji Art Generator
 
 ## Repositories
  
-- [Machine Learning reading list](https://github.com/KokoDoko/creative-coding)
+- [Machine Learning reading list at HR CMGT](https://github.com/HR-CMGT/TLE3-machine-learning)
 - [Creative Coding reading list](https://github.com/KokoDoko/creative-coding)
 - [Level editor built in Typescript](https://kokodoko.github.io/level-editor/)
-- Building a [super-tiny sampler and drum computer](https://www.youtube.com/watch?v=bWudBkCdCZA) with Raspberry Pi
+- [Raspberry Pi Sampler and Drum Computer](https://www.youtube.com/watch?v=bWudBkCdCZA) 
 - [Pac man lamp](https://github.com/KokoDoko/PacmanLamp)
  
 ## Contact

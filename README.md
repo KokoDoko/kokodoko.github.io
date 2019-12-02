@@ -1,46 +1,60 @@
 # Erik Katerborg
 
-Creative coder and Lecturer
+## Creative Technologist | Lecturer 
 
-This page is still being fiddled with... please bear with me!
+[Creative Media and Game Technologies | Rotterdam University for Applied Sciences](https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/creative-media-and-game-technologies/voltijd/)
 
- - I teach Creative Media and Game Technologies at the University of Rotterdam
- - I organise workshops and develop teaching materials
- - As a freelancer, I design and develop interactive work for corporate clients
- - In my spare time, I'm building an evil robot using Arduino and Machine Learning
+I organise workshops about web gaming with Typescript, and Machine Learning for the web with Javascript.
+
+## University Projects
+
+|  |  |
+:-------------------------:|:-------------------------:
+![](./images/clever.png)  |  ![](./images/showcase.png)
+Clever - Student progress system | Student Portfolio website
+![](./images/robots.jpg)  |  ![](./images/gruis.png)
+Robot Royale - Online Multiplayer programmming game | Phaser Local Multiplayer Game - Typescript
+![](./images/arcade.png)  |  ![](./images/machine.png)
+Online Arcade Cabinet for student games | Machine Learning Algorithms Workshop
+
+## Freelance Projects
+
+|  |  |
+:-------------------------:|:-------------------------:
+![](./images/video.png)  |  ![](./images/chip.png)
+Interactive Video Booth - Exposition University of Groningen | Build-a-Chip iPad Game
+![](./images/beer.png)  |  ![](./images/vodafone.png)
+Heineken Twitter Visualisation | Vodafone - The Voice of Holland Store Visual
+![](./images/nike.png)  |  ![](./images/ing.png)
+Nike Instagram - Live data visualisation | ING Sustainability - Interactive Visualisation
+![](./images/city.png)  |  ![](./images/emoji.png)
+Pixel City Generator | Emoji Art Generator
+
+### Former clients include
+
+![](./images/clients.jpg)
+
+ ## University Lectures 
  
- # Lessons and workshops
+ - Introduction to Machine Learning
+ - Getting to know Web Components
+ - Learning OOP with Typescript
+ - Learning React and Vue
+ - Machine Learning for the web
+ - Building web games with Typescript and Phaser
+ - Internet of Things devices with Arduino and Javascript
  
- - Getting to grips with Object Oriented Programming
- - Building web games with Typescript
- - Building a web app with Vue
- - Getting started with Unity
- - Practicing with a machine learning algorithm
+
+ ## Repositories
  
- # Work for Clients
- 
- - Project website for Creative Media and Game Technologies
- - Twitter visualisation for Heineken
- - Twitter sentiment visualisation for Nike
- - In-store digital signage for Vodafone, Jumbo and Pathe Cinema
- - Yearly results interactive visualisation for ING Bank
- - Interactive video booths for University of Groningen
- - Scientific e-learning game for University of Groningen
- - Twitter feed for Pecha Kucha in Tokyo
- 
- # Side projects
- 
+- [Machine Learning reading list](https://github.com/KokoDoko/creative-coding)
 - [Creative Coding reading list](https://github.com/KokoDoko/creative-coding)
 - [Level editor built in Typescript](https://kokodoko.github.io/level-editor/)
 - Building a [super-tiny sampler and drum computer](https://www.youtube.com/watch?v=bWudBkCdCZA) with Raspberry Pi
-- Pac man lamp
-- Building [Rock-paper-scissors](https://www.youtube.com/watch?v=vHyVvPJeq6o) with Machine Learning
- 
- # Contact
+- [Pac man lamp](https://github.com/KokoDoko/PacmanLamp)
 
-<p align="center">
-  <a href="https://github.com/KokoDoko">GitHub</a> |
-  <a href="https://www.linkedin.com/in/eerkmans/">LinkedIn</a> |
-  <a href="https://twitter.com/eerk">Twitter</a> |
-  <a href="https://stackoverflow.com/users/1083572/kokodoko">Stackoverflow</a>
+ 
+ ## Contact
+
+[CMGT Rotterdam](https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/creative-media-and-game-technologies/voltijd/) | [Github](https://github.com/KokoDoko) | [LinkedIn](https://www.linkedin.com/in/eerkmans/) | [Twitter](https://twitter.com/eerk) | [StackOverflow](https://stackoverflow.com/users/1083572/kokodoko)
 </p>

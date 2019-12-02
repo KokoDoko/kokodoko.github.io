@@ -4,6 +4,8 @@
 
 [Creative Media and Game Technologies | Rotterdam University for Applied Sciences](https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/creative-media-and-game-technologies/voltijd/)
 
+![cmgt](./images/cmgt.png)
+
 I organise workshops about Games, React, and Machine Learning for the web with Javascript and Typescript.
 
 ## Lecture subjects
@@ -13,7 +15,7 @@ I organise workshops about Games, React, and Machine Learning for the web with J
  - Learning OOP with Typescript
  - Learning React and Vue
  - Building web games with Typescript and Phaser
- - Internet of Things devices with Arduino and Javascript
+ - Internet of Things devices with Arduino and Adafruit Circuit Playground
 
 ## University Projects
 
@@ -21,10 +23,12 @@ I organise workshops about Games, React, and Machine Learning for the web with J
 :-------------------------:|:-------------------------:
 ![](./images/clever.png)  |  ![](./images/showcase.png)
 Clever - Student progress system | Student Portfolio website
-![](./images/robots.jpg)  |  ![](./images/gruis.png)
-Robot Royale - Online Multiplayer programmming game | Phaser Local Multiplayer Game - Typescript
-![](./images/arcade.png)  |  ![](./images/machine.png)
-Online Arcade Cabinet for student games | Machine Learning Algorithms Workshop
+![](./images/robots.jpg)  |  ![](./images/bb.png)
+Robot Royale - Online Multiplayer programmming game | CMGT Curriculum Graphic Design
+![](./images/arduino.png)  |  ![](./images/machine.png)
+Robot Building Workshop - Internet of Things | Machine Learning Algorithms Workshop 
+![](./images/arcade.png)  |  ![](./images/gruis.png)
+Online Arcade Cabinet for student games | Phaser Local Multiplayer Game - Typescript
 
 ## Freelance Projects
 

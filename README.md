@@ -6,6 +6,15 @@
 
 I organise workshops about Games, React, and Machine Learning for the web with Javascript and Typescript.
 
+## Lecture subjects
+ 
+ - Introduction to Machine Learning
+ - Getting to know Web Components
+ - Learning OOP with Typescript
+ - Learning React and Vue
+ - Building web games with Typescript and Phaser
+ - Internet of Things devices with Arduino and Javascript
+
 ## University Projects
 
 |  |  |
@@ -16,16 +25,6 @@ Clever - Student progress system | Student Portfolio website
 Robot Royale - Online Multiplayer programmming game | Phaser Local Multiplayer Game - Typescript
 ![](./images/arcade.png)  |  ![](./images/machine.png)
 Online Arcade Cabinet for student games | Machine Learning Algorithms Workshop
-
- ## Lecture subjects
- 
- - Introduction to Machine Learning
- - Getting to know Web Components
- - Learning OOP with Typescript
- - Learning React and Vue
- - Machine Learning for the web
- - Building web games with Typescript and Phaser
- - Internet of Things devices with Arduino and Javascript
 
 ## Freelance Projects
 
@@ -51,9 +50,7 @@ Pixel City Generator | Emoji Art Generator
 - [Level editor built in Typescript](https://kokodoko.github.io/level-editor/)
 - Building a [super-tiny sampler and drum computer](https://www.youtube.com/watch?v=bWudBkCdCZA) with Raspberry Pi
 - [Pac man lamp](https://github.com/KokoDoko/PacmanLamp)
-
  
- ## Contact
+## Contact
 
 [CMGT Rotterdam](https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/creative-media-and-game-technologies/voltijd/) | [Github](https://github.com/KokoDoko) | [LinkedIn](https://www.linkedin.com/in/eerkmans/) | [Twitter](https://twitter.com/eerk) | [StackOverflow](https://stackoverflow.com/users/1083572/kokodoko)
-</p>

@@ -39,10 +39,6 @@ Nike Instagram - Live data visualisation | ING Sustainability - Interactive Visu
 ![](./images/city.png)  |  ![](./images/emoji.png)
 Pixel City Generator | Emoji Art Generator
 
-### Former clients include
-
-![](./images/clients.jpg)
-
 ## Repositories
  
 - [Machine Learning reading list](https://github.com/KokoDoko/creative-coding)

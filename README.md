@@ -25,7 +25,7 @@ I organise workshops and lectures about web technologies and machine learning.
 Clever - Student progress system | Student Portfolio website
 ![](./images/robots.jpg)  |  ![](./images/bb.png)
 Robot Royale - Online Multiplayer programmming game | CMGT Curriculum Graphic Design
-![](./images/arduino.png)  |  ![](./images/machine.png)
+![](./images/arduino.png)  |  ![](./images/ml1.png)
 Robot Building Workshop - Internet of Things | Machine Learning Algorithms Workshop 
 ![](./images/arcade.png)  |  ![](./images/gruis.png)
 Online Arcade Cabinet for student games | Phaser Local Multiplayer Game - Typescript
@@ -40,6 +40,8 @@ Interactive Video Booth - Exposition University of Groningen | Build-a-Chip iPad
 Heineken Twitter Visualisation | Vodafone - The Voice of Holland Store Visual
 ![](./images/nike.png)  |  ![](./images/ing.png)
 Nike Instagram - Live data visualisation | ING Sustainability - Interactive Visualisation
+![](./images/unity2.png)  |  ![](./images/unity1.png)
+Digital Playground - Unity Workshop | Digital Playground - Unity Workshop
 ![](./images/city.png)  |  ![](./images/emoji.png)
 Pixel City Generator | Emoji Art Generator
 

@@ -53,6 +53,10 @@ Pixel City Generator | Emoji Art Generator
 - [Raspberry Pi Sampler and Drum Computer](https://www.youtube.com/watch?v=bWudBkCdCZA) 
 - [Pac man lamp](https://github.com/KokoDoko/PacmanLamp)
  
+## Code experiments
+
+[Github](https://github.com/KokoDoko) | [CodePen](https://codepen.io/eerk) | [Glitch](https://glitch.com/@KokoDoko)
+
 ## Contact
 
-[CMGT Rotterdam](https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/creative-media-and-game-technologies/voltijd/) | [Github](https://github.com/KokoDoko) | [LinkedIn](https://www.linkedin.com/in/eerkmans/) | [Twitter](https://twitter.com/eerk) | [StackOverflow](https://stackoverflow.com/users/1083572/kokodoko)
+[CMGT Rotterdam](https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/creative-media-and-game-technologies/voltijd/) | [LinkedIn](https://www.linkedin.com/in/eerkmans/) | [Twitter](https://twitter.com/eerk) | [StackOverflow](https://stackoverflow.com/users/1083572/kokodoko)

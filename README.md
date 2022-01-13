@@ -2,7 +2,7 @@
 
 Hi! I'm Erik, I organise workshops and lectures about creative technologies! I'm currently interested in Machine Learning for the web, and creative coding in Javascript. I maintain a [Machine Learning reading list here](https://github.com/HR-CMGT/Machine-Learning-Readinglist). 
 
-*Some keywords: Tensorflow, React, Typescript, Javascript, ML5, P5, TouchDesigner, Python, Arduino, Internet of Things.*
+*Some keywords: Tensorflow, React, Typescript, Javascript, ML5, P5, TouchDesigner, Unity, Python, Arduino, Internet of Things.*
 
 I work at [Creative Media and Game Technologies - Rotterdam University for Applied Sciences](https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/creative-media-and-game-technologies/voltijd/) in Rotterdam, and I also organise private workshops for anyone who's interested. Recent workshops include the [introduction to ML5](https://medium.com/aixdesign/getting-started-with-ml5-js-tutorial-part-i-image-classifier-6d437ec38045) for [AIxDesign](https://www.aixdesign.co), and game design workshops for [Digital Playground](https://digitalplayground.nl). 
 

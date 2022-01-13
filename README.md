@@ -6,7 +6,7 @@ Hi! I'm Erik, I organise workshops and lectures about creative technologies! I'm
 
 I work at [Creative Media and Game Technologies - Rotterdam University for Applied Sciences](https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/creative-media-and-game-technologies/voltijd/) in Rotterdam, and I also organise private workshops for anyone who's interested. Recent workshops include the [introduction to ML5](https://medium.com/aixdesign/getting-started-with-ml5-js-tutorial-part-i-image-classifier-6d437ec38045) for [AIxDesign](https://www.aixdesign.co), and game design workshops for [Digital Playground](https://digitalplayground.nl). 
 
-Formerly I worked for several creative agencies in the Netherlands, creating interactive campaign work for brands such as Heineken, KPN, 3FM, Nike, ING, Vodafone. 
+Formerly I worked for several creative agencies in the Netherlands, creating interactive display screens for public spaces.
 
 |  |  |
 :-------------------------:|:-------------------------:
@@ -37,6 +37,8 @@ Robot Royale - Online Multiplayer programmming game | Student Portfolio website
 Interactive Video Booth - Exposition University of Groningen | Digital Playground - Unity Workshop for kids
 ![](./images/beer.png)  |  ![](./images/chip.png)
 Heineken Twitter Visualisation | Build-a-Chip iPad Game
+
+Interactive campaign work for brands such as Heineken, KPN, 3FM, Nike, ING, Vodafone, University of Groningen.
 
 <br>
 <br>

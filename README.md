@@ -8,6 +8,10 @@ I work at [Creative Media and Game Technologies - Rotterdam University for Appli
 
 Formerly I worked for several creative agencies in the Netherlands, creating interactive campaign work for brands such as Heineken, KPN, 3FM, Nike, ING, Vodafone. 
 
+|  |  |
+:-------------------------:|:-------------------------:
+<img src="./images/posepong.png" width="300" />  |  A recent experiment: [controlling a PONG game by detecting body poses](https://www.youtube.com/watch?v=bWudBkCdCZA). This experiment uses [tensorflow pose detection](https://www.tensorflow.org/js/models)
+
 Read more about my [University projects](#uni), [Freelance projects](#freelance) and [Code experiments](#exp).
 
 <br>

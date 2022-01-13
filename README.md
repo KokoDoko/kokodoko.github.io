@@ -23,10 +23,8 @@ Read more about my [University projects](#uni), [Freelance projects](#freelance)
 Clever - Student progress system | Student Portfolio website
 ![](./images/robots.jpg)  |  ![](./images/bb.png)
 Robot Royale - Online Multiplayer programmming game | CMGT Curriculum Graphic Design
-![](./images/arduino.png)  |  ![](./images/ml1.png)
-Robot Building Workshop - Internet of Things | Machine Learning Algorithms Workshop 
-![](./images/arcade.png)  |  ![](./images/gruis.png)
-Online Arcade Cabinet for student games | Phaser Local Multiplayer Game - Typescript
+![](./images/arcade.png)  |  ![](./images/ml1.png)
+Online Arcade Cabinet for student games | Guest Lecture AI at [LAB Finland](https://www.lab.fi/en) 
 
 <br>
 <br>

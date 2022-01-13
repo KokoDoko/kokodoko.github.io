@@ -19,7 +19,7 @@ Read more about my [University projects](#uni), [Freelance projects](#freelance)
 :-------------------------:|:-------------------------:
 ![](./images/arcadecabinet800x515.png)  |  ![](./images/ml1.png)
 Online Arcade Cabinet for student games | Guest Lecture AI at [LAB Finland](https://www.lab.fi/en) 
-![](./images/robots.png)  |  ![](./images/showcase.png)
+![](./images/robots.jpg)  |  ![](./images/showcase.png)
 Robot Royale - Online Multiplayer programmming game | Student Portfolio website
 
 <br>
@@ -39,16 +39,12 @@ Heineken Twitter Visualisation | Build-a-Chip iPad Game
 
 ## <a name="exp"></a>Code Experiments
 
- |  |  |
+ |  |  |  |
 :-------------------------:|:-------------------------:|:-------------------------:
- ![](./images/city.png)  |  ![](./images/emoji.png)  |  ![](./images/emoji.png)
-Pixel City Generator | Emoji Art Generator | Emoji Art Generator
+ ![](./images/city.png)  |  ![](./images/emoji.png)  |  ![](./images/posepong.png)
+Pixel City Generator | Emoji Art Generator | [Body Pose Pong](https://www.youtube.com/watch?v=DMebdxAp0j0)
 
-
-- [Pokémon browser built in React](https://kokodoko.github.io/react-pokedex/)
-- [Level editor built in Typescript](https://kokodoko.github.io/level-editor/)
-- [Raspberry Pi Sampler and Drum Computer](https://www.youtube.com/watch?v=bWudBkCdCZA) 
-- [Pac man lamp](https://github.com/KokoDoko/PacmanLamp)
+Or check out the [Pokémon browser built in React](https://kokodoko.github.io/react-pokedex/), [Level editor built in Typescript](https://kokodoko.github.io/level-editor/), [Raspberry Pi Sampler and Drum Computer](https://www.youtube.com/watch?v=bWudBkCdCZA) or [Pac man lamp](https://github.com/KokoDoko/PacmanLamp)
  
 <br>
 <br>

@@ -1,6 +1,4 @@
-# Erik Katerborg
-
-## Creative Technologist | Lecturer 
+# Erik Katerborg | Creative Technologist | Lecturer 
 
 Hi! I'm Erik, I organise workshops and lectures about creative technologies! I'm currently interested in Machine Learning for the web, and creative coding in Javascript. I maintain a [Machine Learning reading list here](https://github.com/HR-CMGT/Machine-Learning-Readinglist). 
 
@@ -8,7 +6,7 @@ Hi! I'm Erik, I organise workshops and lectures about creative technologies! I'm
 
 I work at [Creative Media and Game Technologies - Rotterdam University for Applied Sciences](https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/creative-media-and-game-technologies/voltijd/) in Rotterdam, and I also organise private workshops for anyone who's interested. Recent workshops include the [introduction to ML5](https://medium.com/aixdesign/getting-started-with-ml5-js-tutorial-part-i-image-classifier-6d437ec38045) for [AIxDesign](https://www.aixdesign.co), and game design workshops for [Digital Playground](https://digitalplayground.nl). 
 
-Formerly I worked for several creative agencies in the Netherlands, creating campaign work for big brand names. 
+Formerly I worked for several creative agencies in the Netherlands, creating interactive campaign work for brands such as Heineken, KPN, 3FM, Nike, ING, Vodafone. 
 
 Read more about my [University projects](#uni), [Freelance projects](#freelance) and [Code experiments](#exp).
 
@@ -19,12 +17,12 @@ Read more about my [University projects](#uni), [Freelance projects](#freelance)
 
 |  |  |
 :-------------------------:|:-------------------------:
-![](./images/clever.png)  |  ![](./images/showcase.png)
-Clever - Student progress system | Student Portfolio website
-![](./images/robots.jpg)  |  ![](./images/bb.png)
-Robot Royale - Online Multiplayer programmming game | CMGT Curriculum Graphic Design
 ![](./images/arcade.png)  |  ![](./images/ml1.png)
 Online Arcade Cabinet for student games | Guest Lecture AI at [LAB Finland](https://www.lab.fi/en) 
+![](./images/clever.png)  |  ![](./images/showcase.png)
+Student progress system | Student Portfolio website
+![](./images/robots.jpg)  |  ![](./images/bb.png)
+Robot Royale - Online Multiplayer programmming game | CMGT Curriculum Graphic Design
 
 <br>
 <br>
@@ -33,14 +31,14 @@ Online Arcade Cabinet for student games | Guest Lecture AI at [LAB Finland](http
 
 |  |  |
 :-------------------------:|:-------------------------:
-![](./images/video.png)  |  ![](./images/chip.png)
-Interactive Video Booth - Exposition University of Groningen | Build-a-Chip iPad Game
-![](./images/beer.png)  |  ![](./images/vodafone.png)
-Heineken Twitter Visualisation | Vodafone - The Voice of Holland Store Visual
-![](./images/nike.png)  |  ![](./images/ing.png)
-Nike Instagram - Live data visualisation | ING Sustainability - Interactive Visualisation
-![](./images/unity2.png)  |  ![](./images/unity1.png)
-Digital Playground - Unity Workshop | Digital Playground - Unity Workshop
+![](./images/video.png)  |  ![](./images/unity1.png)
+Interactive Video Booth - Exposition University of Groningen | Digital Playground - Unity Workshop for kids
+![](./images/beer.png)  |  ![](./images/chip.png)
+Heineken Twitter Visualisation | Build-a-Chip iPad Game
+![](./images/vodafone.png)  |  ![](./images/ing.png)
+Vodafone - The Voice of Holland Store Visual | ING Sustainability - Interactive Visualisation
+
+
 
 <br>
 <br>
@@ -58,10 +56,9 @@ Pixel City Generator | Emoji Art Generator
 - [Raspberry Pi Sampler and Drum Computer](https://www.youtube.com/watch?v=bWudBkCdCZA) 
 - [Pac man lamp](https://github.com/KokoDoko/PacmanLamp)
  
-## More crazy stuff
-
-[Github](https://github.com/KokoDoko) | [CodePen](https://codepen.io/eerk) | [Glitch](https://glitch.com/@KokoDoko)
+<br>
+<br>
 
 ## Contact
 
-[CMGT Rotterdam](https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/creative-media-and-game-technologies/voltijd/) | [LinkedIn](https://www.linkedin.com/in/eerkmans/) | [StackOverflow](https://stackoverflow.com/users/1083572/kokodoko)
+[CMGT Rotterdam](https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/creative-media-and-game-technologies/voltijd/) | [LinkedIn](https://www.linkedin.com/in/eerkmans/) | [Github](https://github.com/KokoDoko), [CodePen](https://codepen.io/eerk) and [Glitch](https://glitch.com/@KokoDoko)

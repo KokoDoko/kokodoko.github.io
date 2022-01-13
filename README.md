@@ -19,10 +19,8 @@ Read more about my [University projects](#uni), [Freelance projects](#freelance)
 :-------------------------:|:-------------------------:
 ![](./images/arcadecabinet800x515.png)  |  ![](./images/ml1.png)
 Online Arcade Cabinet for student games | Guest Lecture AI at [LAB Finland](https://www.lab.fi/en) 
-![](./images/clever.png)  |  ![](./images/showcase.png)
-Student progress system | Student Portfolio website
-![](./images/robots.jpg)  |  ![](./images/bb.png)
-Robot Royale - Online Multiplayer programmming game | CMGT Curriculum Graphic Design
+![](./images/robots.png)  |  ![](./images/showcase.png)
+Robot Royale - Online Multiplayer programmming game | Student Portfolio website
 
 <br>
 <br>
@@ -35,10 +33,6 @@ Robot Royale - Online Multiplayer programmming game | CMGT Curriculum Graphic De
 Interactive Video Booth - Exposition University of Groningen | Digital Playground - Unity Workshop for kids
 ![](./images/beer.png)  |  ![](./images/chip.png)
 Heineken Twitter Visualisation | Build-a-Chip iPad Game
-![](./images/vodafone.png)  |  ![](./images/ing.png)
-Vodafone - The Voice of Holland Store Visual | ING Sustainability - Interactive Visualisation
-
-
 
 <br>
 <br>
@@ -46,9 +40,9 @@ Vodafone - The Voice of Holland Store Visual | ING Sustainability - Interactive 
 ## <a name="exp"></a>Code Experiments
 
  |  |  |
-:-------------------------:|:-------------------------:
- ![](./images/city.png)  |  ![](./images/emoji.png)
-Pixel City Generator | Emoji Art Generator
+:-------------------------:|:-------------------------:|:-------------------------:
+ ![](./images/city.png)  |  ![](./images/emoji.png)  |  ![](./images/emoji.png)
+Pixel City Generator | Emoji Art Generator | Emoji Art Generator
 
 
 - [Pokémon browser built in React](https://kokodoko.github.io/react-pokedex/)
@@ -61,4 +55,4 @@ Pixel City Generator | Emoji Art Generator
 
 ## Contact
 
-[CMGT Rotterdam](https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/creative-media-and-game-technologies/voltijd/) | [LinkedIn](https://www.linkedin.com/in/eerkmans/) | [Github](https://github.com/KokoDoko), [CodePen](https://codepen.io/eerk) and [Glitch](https://glitch.com/@KokoDoko)
+[CMGT Rotterdam](https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/creative-media-and-game-technologies/voltijd/) | [LinkedIn](https://www.linkedin.com/in/eerkmans/) | [Github](https://github.com/KokoDoko) | [CodePen](https://codepen.io/eerk) | [Glitch](https://glitch.com/@KokoDoko)

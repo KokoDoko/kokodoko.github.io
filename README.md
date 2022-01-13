@@ -36,7 +36,7 @@ Robot Royale - Online Multiplayer programmming game | Student Portfolio website
 ![](./images/video.png)  |  ![](./images/unity1.png)
 Interactive Video Booth - Exposition University of Groningen | Digital Playground - Unity Workshop for kids
 ![](./images/beer.png)  |  ![](./images/chip.png)
-Heineken Twitter Visualisation | Build-a-Chip iPad Game
+Heineken Visualisation displayed in Wembley Stadium London | Build-a-Chip public touchscreen game
 
 Interactive campaign work for brands such as Heineken, KPN, 3FM, Nike, ING, Vodafone, University of Groningen.
 

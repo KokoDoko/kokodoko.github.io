@@ -17,7 +17,7 @@ Read more about my [University projects](#uni), [Freelance projects](#freelance)
 
 |  |  |
 :-------------------------:|:-------------------------:
-![](./images/arcade.png)  |  ![](./images/ml1.png)
+![](./images/arcadecabinet800x515.png)  |  ![](./images/ml1.png)
 Online Arcade Cabinet for student games | Guest Lecture AI at [LAB Finland](https://www.lab.fi/en) 
 ![](./images/clever.png)  |  ![](./images/showcase.png)
 Student progress system | Student Portfolio website

@@ -10,7 +10,7 @@ Formerly I worked for several creative agencies in the Netherlands, creating int
 
 |  |  |
 :-------------------------:|:-------------------------:
-<img src="./images/posepong.png" width="300" />  |  A recent experiment: [controlling a PONG game by detecting body poses](https://www.youtube.com/watch?v=bWudBkCdCZA). This experiment uses [tensorflow pose detection](https://www.tensorflow.org/js/models)
+<img src="./images/posepong.png" width="300" />  |  A recent experiment: [controlling a PONG game by detecting body poses](https://www.youtube.com/watch?v=DMebdxAp0j0). This experiment uses [tensorflow pose detection](https://www.tensorflow.org/js/models)
 
 Read more about my [University projects](#uni), [Freelance projects](#freelance) and [Code experiments](#exp).
 
@@ -47,10 +47,10 @@ Interactive campaign work for brands such as Heineken, KPN, 3FM, Nike, ING, Voda
 
  |  |  |  |
 :-------------------------:|:-------------------------:|:-------------------------:
- ![](./images/city.png)  |  ![](./images/emoji.png)  |  ![](./images/posepong.png)
-Pixel City Generator | Emoji Art Generator | [Body Pose Pong](https://www.youtube.com/watch?v=DMebdxAp0j0)
+ ![](./images/citysmall.png)  |  ![](./images/emoji.png)  |  ![](./images/posepong.png)
+[Random Pixel City Generator](./images/citybig.png) | Emoji Art Generator | [Body Pose Pong](https://www.youtube.com/watch?v=DMebdxAp0j0)
 
-Or check out the [Pokémon browser built in React](https://kokodoko.github.io/react-pokedex/), [Level editor built in Typescript](https://kokodoko.github.io/level-editor/), [Raspberry Pi Sampler and Drum Computer](https://www.youtube.com/watch?v=bWudBkCdCZA) or [Pac man lamp](https://github.com/KokoDoko/PacmanLamp)
+Or check out the [Pokémon browser built in React](https://kokodoko.github.io/react-pokedex/), [Level editor built in Typescript](https://kokodoko.github.io/level-editor/), [Raspberry Pi Sampler and Drum Computer](https://www.youtube.com/watch?v=bWudBkCdCZA) or [IKEA Pac Man lamp](https://github.com/KokoDoko/PacmanLamp)
  
 <br>
 <br>

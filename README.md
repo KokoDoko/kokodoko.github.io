@@ -2,7 +2,7 @@
 
 Hi! I'm Erik, I organise workshops and lectures about creative technologies! I'm currently interested in Machine Learning for the web, and creative coding in Javascript. I maintain a [Machine Learning reading list here](https://github.com/HR-CMGT/Machine-Learning-Readinglist). 
 
-*Some keywords: Tensorflow, React, Typescript, Javascript, ML5, P5, TouchDesigner, Unity, Python, Arduino, Internet of Things.*
+*Some keywords: Tensorflow, React, Typescript, Javascript, ML5, P5, TouchDesigner, Unity, Python, Arduino, Internet of Things, BlockChain.*
 
 I work at [Creative Media and Game Technologies - Rotterdam University for Applied Sciences](https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/creative-media-and-game-technologies/voltijd/) in Rotterdam, and I also organise private workshops for anyone who's interested. Recent workshops include the [introduction to ML5](https://medium.com/aixdesign/getting-started-with-ml5-js-tutorial-part-i-image-classifier-6d437ec38045) for [AIxDesign](https://www.aixdesign.co), and game design workshops for [Digital Playground](https://digitalplayground.nl). 
 
@@ -50,7 +50,11 @@ Interactive campaign work for brands such as Heineken, KPN, 3FM, Nike, ING, Voda
  ![](./images/citysmall.png)  |  ![](./images/emoji.png)  |  ![](./images/posepong.png)
 [Random Pixel City Generator](https://github.com/KokoDoko/kokodoko.github.io/blob/master/images/citybig.png?raw=true) | Emoji Art Generator | [Body Pose Pong](https://www.youtube.com/watch?v=DMebdxAp0j0)
 
-Or check out the [Pokémon browser built in React](https://kokodoko.github.io/react-pokedex/), [Level editor built in Typescript](https://kokodoko.github.io/level-editor/), [Raspberry Pi Sampler and Drum Computer](https://www.youtube.com/watch?v=bWudBkCdCZA) or [IKEA Pac Man lamp](https://github.com/KokoDoko/PacmanLamp)
+- [Blockchain mining in Typescript](https://kokodoko.github.io/henkcoin/)
+- [Pokémon browser built in React](https://kokodoko.github.io/react-pokedex/)
+- [Game Level editor built in Typescript](https://kokodoko.github.io/level-editor/)
+- [Raspberry Pi Sampler and Drum Computer](https://www.youtube.com/watch?v=bWudBkCdCZA) 
+- [IKEA Pac Man lamp](https://github.com/KokoDoko/PacmanLamp)
  
 <br>
 <br>

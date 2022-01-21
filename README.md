@@ -48,13 +48,11 @@ Interactive campaign work for brands such as Heineken, KPN, 3FM, Nike, ING, Voda
  |  |  |  |
 :-------------------------:|:-------------------------:|:-------------------------:
  ![](./images/citysmall.png)  |  ![](./images/emoji.png)  |  ![](./images/posepong.png)
-[Random Pixel City Generator](https://github.com/KokoDoko/kokodoko.github.io/blob/master/images/citybig.png?raw=true) | Emoji Art Generator | [Body Pose Pong](https://www.youtube.com/watch?v=DMebdxAp0j0)
+[Generative Pixel City](https://github.com/KokoDoko/kokodoko.github.io/blob/master/images/citybig.png?raw=true) | Emoji Art Generator | [Body Pose Pong](https://www.youtube.com/watch?v=DMebdxAp0j0)
+ ![](./images/citysmall.png)  |  ![](./images/emoji.png)  |  ![](./images/posepong.png)
+[Interactive Blockchain Tutorial](https://kokodoko.github.io/henkcoin) | [React Pokedex](https://kokodoko.github.io/react-pokedex/) | [Raspberry Pi Drum Computer](https://www.youtube.com/watch?v=DMebdxAp0j0)
 
-- [Blockchain mining in Typescript](https://kokodoko.github.io/henkcoin/)
-- [Pokémon browser built in React](https://kokodoko.github.io/react-pokedex/)
-- [Game Level editor built in Typescript](https://kokodoko.github.io/level-editor/)
-- [Raspberry Pi Sampler and Drum Computer](https://www.youtube.com/watch?v=bWudBkCdCZA) 
-- [IKEA Pac Man lamp](https://github.com/KokoDoko/PacmanLamp)
+You can also [Play Pac Man on an IKEA lamp](https://github.com/KokoDoko/PacmanLamp) or [build your own Mario level in this Typescript experiment](https://kokodoko.github.io/level-editor/)
  
 <br>
 <br>

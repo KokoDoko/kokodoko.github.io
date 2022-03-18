@@ -4,7 +4,7 @@ Hi! I'm Erik, I organise workshops and lectures about creative technologies! I'm
 
 *Some keywords: Tensorflow, React, Typescript, Javascript, ML5, P5, TouchDesigner, Unity, Python, Arduino, Internet of Things, BlockChain.*
 
-I work at [Creative Media and Game Technologies - Rotterdam University for Applied Sciences](https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/creative-media-and-game-technologies/voltijd/) in Rotterdam, and I also organise private workshops for anyone who's interested. Recent workshops include the [introduction to ML5](https://medium.com/aixdesign/getting-started-with-ml5-js-tutorial-part-i-image-classifier-6d437ec38045) for [AIxDesign](https://www.aixdesign.co), and game design workshops for [Digital Playground](https://digitalplayground.nl). 
+I work at [Creative Media and Game Technologies - Rotterdam University for Applied Sciences](https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/creative-media-and-game-technologies/voltijd/) in Rotterdam, and I also organise private workshops. Recent workshops include the [introduction to ML5](https://medium.com/aixdesign/getting-started-with-ml5-js-tutorial-part-i-image-classifier-6d437ec38045) for [AIxDesign](https://www.aixdesign.co), and game design workshops for [Digital Playground](https://digitalplayground.nl). 
 
 Formerly I worked for several creative agencies in the Netherlands, creating interactive display screens for public spaces.
 
@@ -52,7 +52,7 @@ Interactive campaign work for brands such as Heineken, KPN, 3FM, Nike, ING, Voda
  ![](./images/blockchain.png)  |  ![](./images/pokedex.png)  |  ![](./images/drum.png)
 [Interactive Blockchain Tutorial](https://kokodoko.github.io/henkcoin) | [React Pokedex](https://kokodoko.github.io/react-pokedex/) | [Raspberry Pi Drum Computer](https://www.youtube.com/watch?v=DMebdxAp0j0)
 
-You can also [Play Pac Man on an IKEA lamp](https://github.com/KokoDoko/PacmanLamp) or [build your own Mario level in this Typescript experiment](https://kokodoko.github.io/level-editor/)
+You can [play Pac Man on an IKEA lamp](https://github.com/KokoDoko/PacmanLamp), [Visualise how a single-cell brain learns](https://kokodoko.github.io/perceptron/), or [build your own Mario level in this Typescript experiment](https://kokodoko.github.io/level-editor/)
  
 <br>
 <br>

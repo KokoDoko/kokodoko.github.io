@@ -10,7 +10,7 @@ Formerly I worked for several creative agencies in the Netherlands, creating int
 
 |  |  |
 :-------------------------:|:-------------------------:
-<img src="./images/posepong.png" width="300" />  |  Recent experiments include a [PONG game controlled by body poses](https://www.youtube.com/watch?v=DMebdxAp0j0) and an [Interactive Blockchain Tutorial](https://kokodoko.github.io/henkcoin)
+<img src="./images/posepong.png" width="300" />  |  Recent experiments include a [PONG game controlled by body poses](https://www.youtube.com/watch?v=DMebdxAp0j0), an [Interactive Blockchain Tutorial](https://kokodoko.github.io/henkcoin), and an [Animation that shows how a single-cell computer brain learns](https://kokodoko.github.io/perceptron/)
 
 Read more about my [University projects](#uni), [Freelance projects](#freelance) and [Code experiments](#exp).
 

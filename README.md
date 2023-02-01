@@ -1,6 +1,6 @@
 # Erik Katerborg | Creative Technologist | Lecturer 
 
-Hi! I'm Erik, I organise workshops and lectures about creative technologies! I'm currently interested in Machine Learning for the web, and creative coding in Javascript. I maintain a [Machine Learning reading list here](https://github.com/HR-CMGT/Machine-Learning-Readinglist). 
+Hi! I'm Erik, I organise workshops and lectures about creative technologies! I'm currently interested in Machine Learning for the web, and creative coding in Javascript. I maintain a [Machine Learning reading list here](https://github.com/HR-CMGT/Javascript-Machine-Learning). 
 
 *Some keywords: Tensorflow, React, Typescript, Javascript, ML5, P5, TouchDesigner, Unity, Python, Arduino, Internet of Things, BlockChain.*
 

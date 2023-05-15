@@ -48,7 +48,7 @@ Interactive campaign work for brands such as Heineken, KPN, 3FM, Nike, ING, Voda
  |  |  |  |
 :-------------------------:|:-------------------------:|:-------------------------:
  ![](./images/citysmall.png)  |  ![](./images/emoji.png)  |  ![](./images/posepong.png)
-[Generative Pixel City](https://github.com/KokoDoko/kokodoko.github.io/blob/master/images/citybig.png?raw=true) | Emoji Art Generator | [Body Pose Pong](https://www.youtube.com/watch?v=DMebdxAp0j0)
+[Generative Pixel City](https://github.com/KokoDoko/kokodoko.github.io/blob/master/images/citybig.png?raw=true) | [Emoji Art Generator](https://codesandbox.io/s/emoji-webcam-qt1ocz) | [Body Pose Pong](https://www.youtube.com/watch?v=DMebdxAp0j0)
  ![](./images/blockchain.png)  |  ![](./images/pokedex.png)  |  ![](./images/drum.png)
 [Interactive Blockchain Tutorial](https://kokodoko.github.io/henkcoin) | [React Pokedex](https://kokodoko.github.io/react-pokedex/) | [Raspberry Pi Drum Computer](https://www.youtube.com/watch?v=DMebdxAp0j0)
 

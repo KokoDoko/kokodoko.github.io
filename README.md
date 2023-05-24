@@ -10,7 +10,7 @@ Formerly I worked for several creative agencies in the Netherlands, creating int
 
 |  |  |
 :-------------------------:|:-------------------------:
-<img src="./images/posepong.png" width="300" />  |  Recent experiments include a [PONG game controlled by body poses](https://www.youtube.com/watch?v=DMebdxAp0j0), an [Interactive Blockchain Tutorial](https://kokodoko.github.io/henkcoin), and an [Animation that shows how a single-cell computer brain learns](https://kokodoko.github.io/perceptron/)
+<img src="./images/posepong.png" width="300" />  |  Recent experiments include a [PONG game controlled by body poses](https://www.youtube.com/watch?v=DMebdxAp0j0), an [Interactive Blockchain Tutorial](https://kokodoko.github.io/blockchain/), and an [Animation that shows how a single-cell computer brain learns](https://kokodoko.github.io/perceptron/)
 
 Read more about my [University projects](#uni), [Freelance projects](#freelance) and [Code experiments](#exp).
 
@@ -50,7 +50,7 @@ Interactive campaign work for brands such as Heineken, KPN, 3FM, Nike, ING, Voda
  ![](./images/citysmall.png)  |  ![](./images/emoji.png)  |  ![](./images/posepong.png)
 [Generative Pixel City](https://github.com/KokoDoko/kokodoko.github.io/blob/master/images/citybig.png?raw=true) | [Emoji Art Generator](https://codesandbox.io/s/emoji-webcam-qt1ocz) | [Body Pose Pong](https://www.youtube.com/watch?v=DMebdxAp0j0)
  ![](./images/blockchain.png)  |  ![](./images/pokedex.png)  |  ![](./images/drum.png)
-[Interactive Blockchain Tutorial](https://kokodoko.github.io/henkcoin) | [React Pokedex](https://kokodoko.github.io/react-pokedex/) | [Raspberry Pi Drum Computer](https://www.youtube.com/watch?v=DMebdxAp0j0)
+[Interactive Blockchain Tutorial](https://kokodoko.github.io/blockchain) | [React Pokedex](https://kokodoko.github.io/react-pokedex/) | [Raspberry Pi Drum Computer](https://www.youtube.com/watch?v=DMebdxAp0j0)
 
 You can [play Pac Man on an IKEA lamp](https://github.com/KokoDoko/PacmanLamp), [Visualise how a single-cell brain learns](https://kokodoko.github.io/perceptron/), or [build your own Mario level in this Typescript experiment](https://kokodoko.github.io/level-editor/)
  

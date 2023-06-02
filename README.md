@@ -10,7 +10,8 @@ Hi! I'm Erik, I teach at [Creative Media and Game Technologies - Rotterdam Unive
 <br><Br><br>
 
 ## Recent javascript experiments 
-| |  |
+
+|  |  |
 |----------------------|--------------------|
 | <img src="./images/zoek.png" width="100" /> | [Zoek Dezelfde: Matching game](https://kokodoko.github.io/zoekdezelfde/) |
 | <img src="./images/posepong.png" width="100" />  |  [PONG game controlled by body poses](https://www.youtube.com/watch?v=DMebdxAp0j0)|

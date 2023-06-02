@@ -1,21 +1,23 @@
 # Erik Katerborg | Creative Technologist | Lecturer 
 
-Hi! I'm Erik, I organise workshops and lectures about creative technologies! I'm currently interested in Machine Learning for the web, and creative coding in Javascript. I maintain a [Machine Learning reading list here](https://github.com/HR-CMGT/Javascript-Machine-Learning). 
+Hi! I'm Erik, I teach at [Creative Media and Game Technologies - Rotterdam University for Applied Sciences](https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/creative-media-and-game-technologies/voltijd/) in Rotterdam, and I organise lectures and workshops, such as:
 
-*Some keywords: Tensorflow, React, Typescript, Javascript, ML5, P5, TouchDesigner, Unity, Python, Arduino, Internet of Things, BlockChain.*
+- Introduction to ML5 for [AIxDesign](https://medium.com/aixdesign/getting-started-with-ml5-js-tutorial-part-i-image-classifier-6d437ec38045)
+- Guest lectures at [LAB Finland](https://lab.fi/en)
+- *AI in Javascript* lecture at CMGT conference Netherlands
+- Getting started with Unity for [Digital Playground](https://digitalplayground.nl). 
 
-I work at [Creative Media and Game Technologies - Rotterdam University for Applied Sciences](https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/creative-media-and-game-technologies/voltijd/) in Rotterdam, and I also organise private workshops. Recent workshops include the [introduction to ML5](https://medium.com/aixdesign/getting-started-with-ml5-js-tutorial-part-i-image-classifier-6d437ec38045) for [AIxDesign](https://www.aixdesign.co), and game design workshops for [Digital Playground](https://digitalplayground.nl). 
+<br><Br><br>
 
-Formerly I worked for several creative agencies in the Netherlands, creating interactive display screens for public spaces.
+## Recent javascript experiments 
+| |  |
+|----------------------|--------------------|
+| <img src="./images/zoek.png" width="100" /> | [Zoek Dezelfde: Matching game](https://kokodoko.github.io/zoekdezelfde/) |
+| <img src="./images/posepong.png" width="100" />  |  [PONG game controlled by body poses](https://www.youtube.com/watch?v=DMebdxAp0j0)|
+| <img src="./images/cmgt.png" width="100" /> | [3D lego block animation](https://kokodoko.github.io/cmgt-logo/) |
 
-|  |  |
-:-------------------------:|:-------------------------:
-<img src="./images/posepong.png" width="300" />  |  Recent experiments include a [PONG game controlled by body poses](https://www.youtube.com/watch?v=DMebdxAp0j0), an [Interactive Blockchain Tutorial](https://kokodoko.github.io/blockchain/), and an [Animation that shows how a single-cell computer brain learns](https://kokodoko.github.io/perceptron/)
 
-Read more about my [University projects](#uni), [Freelance projects](#freelance) and [Code experiments](#exp).
-
-<br>
-<br>
+<br><br><br>
 
 ## <a name="uni"></a>University Projects
 
@@ -36,14 +38,14 @@ Robot Royale - Online Multiplayer programmming game | Student Portfolio website
 ![](./images/video.png)  |  ![](./images/unity1.png)
 Interactive Video Booth - Exposition University of Groningen | Digital Playground - Unity Workshop for kids
 ![](./images/beer.png)  |  ![](./images/chip.png)
-Heineken Visualisation displayed in Wembley Stadium London | Build-a-Chip public touchscreen game
+Heineken Visualisation displayed in Wembley Stadium London | Build-a-Chip iPad game for University of Groningen
 
-Interactive campaign work for brands such as Heineken, KPN, 3FM, Nike, ING, Vodafone, University of Groningen.
+>*I have done interactive campaign work for brands such as Heineken, KPN, 3FM, Nike, ING, Vodafone, University of Groningen and more*.
 
 <br>
 <br>
 
-## <a name="exp"></a>Code Experiments
+## <a name="exp"></a>Creative Coding
 
  |  |  |  |
 :-------------------------:|:-------------------------:|:-------------------------:
@@ -57,6 +59,11 @@ You can [play Pac Man on an IKEA lamp](https://github.com/KokoDoko/PacmanLamp), 
 <br>
 <br>
 <br>
+
+## Keywords
+
+*TensorflowJS, React, React-Native, ThreeJS, Typescript, Javascript, ML5, P5, TouchDesigner, ExcaliburJS, Unity, Python, Arduino, Internet of Things, BlockChain.*
+
 
 ## Contact
 

@@ -16,7 +16,7 @@ Hi! I'm Erik, I teach at [Creative Media and Game Technologies - Rotterdam Unive
 | <img src="./images/ai.png" width="100" /> | [AI Assistent](https://ai-assistent-mu.vercel.app)
 | <img src="./images/zoek.png" width="100" /> | [Zoek Dezelfde: Matching game](https://kokodoko.github.io/zoekdezelfde/) |
 | <img src="./images/posepong.png" width="100" /> | [PONG game controlled by body poses](https://www.youtube.com/watch?v=DMebdxAp0j0) |
-| <img src="./images/cmgt.png" width="100" /> | [3D lego block animation](https://kokodoko.github.io/cmgt-logo/) |
+| <img src="./images/cmgt.png" width="100" /> | [Augmented Reality Lego animation](https://kokodoko.github.io/cmgt-logo/) (view with VR headset) |
 
 
 <br><br><br>

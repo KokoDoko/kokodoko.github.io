@@ -1,25 +1,31 @@
 # Erik Katerborg | Creative Technologist | Lecturer 
 
-Hi! I'm Erik, I teach at [Creative Media and Game Technologies - Rotterdam University for Applied Sciences](https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/creative-media-and-game-technologies/voltijd/) in Rotterdam, and I organise lectures and workshops, such as:
+Hi! I'm Erik, I teach at [Creative Media and Game Technologies - Rotterdam University for Applied Sciences](https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/creative-media-and-game-technologies/voltijd/) in Rotterdam. I organise lectures and workshops in the field of creative coding. 
 
+- Guest lectures about creative AI at [LAB Finland](https://lab.fi/en)
 - Introduction creative AI for [AIxDesign](https://medium.com/aixdesign/getting-started-with-ml5-js-tutorial-part-i-image-classifier-6d437ec38045)
-- Guest lectures at [LAB Finland](https://lab.fi/en)
 - *AI in Javascript* lecture at CMGT conference Netherlands
 - Getting started with Unity for [Digital Playground](https://digitalplayground.nl). 
 
-<br><Br><br>
-
-## Recent javascript playgrounds 
-
-|        |        |
-|--------|--------|
-| <img src="./images/ai.png" width="100" /> | [AI Assistent](https://ai-assistent-mu.vercel.app)
-| <img src="./images/zoek.png" width="100" /> | [Zoek Dezelfde: Matching game](https://kokodoko.github.io/zoekdezelfde/) |
-| <img src="./images/posepong.png" width="100" /> | [PONG game controlled by body poses](https://www.youtube.com/watch?v=DMebdxAp0j0) |
-| <img src="./images/cmgt.png" width="100" /> | [3D Lego animation](https://kokodoko.github.io/cmgt-logo/),  [🥽 View in Virtual Reality](https://kokodoko.github.io/cmgt-logo-xr/) |
-
 
 <br><br><br>
+
+## <a name="recent"></a>Recent
+
+| VR 🥽 |  |
+|--------------------|--------------------|
+![](./images/cmgt-vr.png)  |  ![](./images/unity-vr.png)
+[Web XR Animated Logo](https://kokodoko.github.io/cmgt-logo-xr/)<br>*open this link on your VR headset* | [Unity XR Interaction Toolkit](https://www.lab.fi/en) 
+
+
+| AI 🤖 |  |
+|--------------------|--------------------|
+![](./images/ai.png)  |  ![](./images/posepong.png)
+Custom Chat LLM to answer student questions | [PONG game controlled by body poses](https://www.youtube.com/watch?v=DMebdxAp0j0)
+
+<br>
+<br>
+
 
 ## <a name="uni"></a>University Projects
 
@@ -51,8 +57,8 @@ Heineken Visualisation displayed in Wembley Stadium London | Build-a-Chip iPad g
 
 |  |  |  |
 |-----------|---------|-------------------|
- ![](./images/citysmall.png)  |  ![](./images/emoji.png)  |  ![](./images/posepong.png)
-[Generative Pixel City](https://github.com/KokoDoko/kokodoko.github.io/blob/master/images/citybig.png?raw=true) | [Emoji Art Generator](https://codesandbox.io/s/emoji-webcam-qt1ocz) | [Body Pose Pong](https://www.youtube.com/watch?v=DMebdxAp0j0)
+ ![](./images/citysmall.png)  |  ![](./images/emoji.png)  |  ![](./images/zoek.png)
+[Generative Pixel City](https://github.com/KokoDoko/kokodoko.github.io/blob/master/images/citybig.png?raw=true) | [Emoji Art Generator](https://codesandbox.io/s/emoji-webcam-qt1ocz) | [Matching Game in JS](https://kokodoko.github.io/zoekdezelfde/)
  ![](./images/blockchain.png)  |  ![](./images/pokedex.png)  |  ![](./images/drum.png)
 [Interactive Blockchain Tutorial](https://kokodoko.github.io/blockchain) | [React Pokedex](https://kokodoko.github.io/react-pokedex/) | [Raspberry Pi Drum Computer](https://www.youtube.com/watch?v=DMebdxAp0j0)
 

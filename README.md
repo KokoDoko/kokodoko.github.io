@@ -15,7 +15,7 @@ Hi! I'm Erik, I teach at [Creative Media and Game Technologies - Rotterdam Unive
 | VR 🥽 |  |
 |--------------------|--------------------|
 ![](./images/cmgt-vr.png)  |  ![](./images/unity-vr.png)
-[Web XR Animated Logo](https://kokodoko.github.io/cmgt-logo-xr/)<br>*open this link on your VR headset* | [Unity XR Interaction Toolkit](https://www.lab.fi/en) 
+[Web XR Animated Logo](https://kokodoko.github.io/cmgt-logo-xr/)<br>*open this link on your VR headset* | [Unity XR Interaction Toolkit](https://youtu.be/nBZeMjhvK_k) 
 
 
 | AI 🤖 |  |

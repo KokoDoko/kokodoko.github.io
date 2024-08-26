@@ -32,9 +32,9 @@ Custom Chat LLM to answer student questions | [PONG game controlled by body pose
 |  |  |
 |--------------------|--------------------|
 ![](./images/arcadecabinet800x515.png)  |  ![](./images/ml1.png)
-Online Arcade Cabinet for student games | Guest Lecture AI at [LAB Finland](https://www.lab.fi/en) 
+[Online Arcade Cabinet for student games](https://hr-cmgt.github.io/arcade-server/) | Guest Lecture AI at [LAB Finland](https://www.lab.fi/en) 
 ![](./images/robots.jpg)  |  ![](./images/showcase.png)
-Robot Royale - Online Multiplayer programmming game | Student Portfolio website
+Robot Royale - Online Multiplayer programmming game | [Student Portfolio website](https://cmgt.hr.nl) <br>Visual design and frontend development.
 
 <br>
 <br>

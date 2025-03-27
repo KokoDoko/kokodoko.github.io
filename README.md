@@ -9,7 +9,7 @@ Hi! I'm Erik, I teach at [Creative Media and Game Technologies - Rotterdam Unive
 
 <br>
 
-My most recent experiment is a dive into ***vibe coding*** by creating a [visualisation of a language model](https://kokodoko.github.io/llm-3d/).
+My most recent experiment is a dive into ***[vibe coding](https://vibemanifesto.org)*** by creating a [visualisation of a language model](https://kokodoko.github.io/llm-3d/).
 
 
 <br><br><br>

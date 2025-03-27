@@ -7,21 +7,25 @@ Hi! I'm Erik, I teach at [Creative Media and Game Technologies - Rotterdam Unive
 - *AI in Javascript* lecture at CMGT conference Netherlands
 - Getting started with Unity for [Digital Playground](https://digitalplayground.nl). 
 
+<br>
+
+My most recent experiment is a dive into ***vibe coding*** by creating a [visualisation of a language model](https://kokodoko.github.io/llm-3d/).
+
 
 <br><br><br>
 
 ## <a name="recent"></a>Recent
 
-| VR 🥽 |  |
+| VR |  |
 |--------------------|--------------------|
 ![](./images/cmgt-vr.png)  |  ![](./images/unity-vr.png)
 [Web XR Animated Logo](https://kokodoko.github.io/cmgt-logo-xr/)<br>*open this link on your VR headset* | [Unity XR Interaction Toolkit](https://youtu.be/nBZeMjhvK_k) 
 
 
-| AI 🤖 |  |
-|--------------------|--------------------|
-![](./images/ai.png)  |  ![](./images/posepong.png)
-Custom Chat LLM to answer student questions | [PONG game controlled by body poses](https://www.youtube.com/watch?v=DMebdxAp0j0)
+| AI  |  |  |
+|------------|-------------|--------|
+![](./images/ai.png)  |  ![](./images/posepong.png) | ![](./images/llm-3d.png) 
+Custom Chat LLM to answer student questions | [PONG game controlled by body poses](https://www.youtube.com/watch?v=DMebdxAp0j0) | [Visualising a language model in 3D](https://kokodoko.github.io/llm-3d/)
 
 <br>
 <br>

@@ -22,18 +22,45 @@ My most recent experiment is a dive into ***[vibe coding](https://vibemanifesto.
 [Web XR Animated Logo](https://kokodoko.github.io/cmgt-logo-xr/)<br>*open this link on your VR headset* | [Unity XR Interaction Toolkit](https://youtu.be/nBZeMjhvK_k) 
 
 
-| AI  |  |  |
-|------------|-------------|--------|
-![](./images/ai.png)  |  ![](./images/posepong.png) | ![](./images/llm-3d.png) 
-Custom Chat LLM to answer student questions | [PONG game controlled by body poses](https://www.youtube.com/watch?v=DMebdxAp0j0) | [Visualising a language model in 3D](https://kokodoko.github.io/llm-3d/)
-
+<table style="width:100%; table-layout: fixed; border-collapse: collapse;">
+  <tr>
+    <td style="width:25%;"><h3>AI</h3></td>
+    <td style="width:25%; text-align: center;">&nbsp;</td>
+    <td style="width:25%; text-align: center;">&nbsp;</td>
+    <td style="width:25%; text-align: center;">&nbsp;</td>
+  </tr>
+  <tr>
+<td style="width:25%; text-align: center;">
+      <img src="./images/ai.png" alt="AI Image" style="width:100%; aspect-ratio: 4/3; object-fit: cover;">
+    </td>
+    <td style="width:25%; text-align: center;">
+      <img src="./images/posepong.png" alt="Pose Pong" style="width:100%; aspect-ratio: 4/3; object-fit: cover;">
+    </td>
+    <td style="width:25%; text-align: center;">
+      <img src="./images/llm-3d.png" alt="LLM 3D" style="width:100%; aspect-ratio: 4/3; object-fit: cover;">
+    </td>
+    <td style="width:25%; text-align: center;">
+      <img src="./images/birdyflap.gif" alt="Birdy Flap" style="width:100%; aspect-ratio: 4/3; object-fit: cover;">
+    </td>
+  </tr>
+  <tr>
+    <td style="width:25%; ">Custom Chat LLM to answer student questions</td>
+    <td style="width:25%; ">
+      <a href="https://www.youtube.com/watch?v=DMebdxAp0j0">PONG game controlled by body poses</a>
+    </td>
+    <td style="width:25%; ">
+      <a href="https://kokodoko.github.io/llm-3d/">Visualising a language model in 3D</a>
+    </td>
+    <td style="width:25%;">Self-learning flappy bird with evolutional algorithm</td>
+  </tr>
+</table>
 <br>
 <br>
 
 
 ## <a name="uni"></a>University Projects
 
-|  |  |
+|  |  |  
 |--------------------|--------------------|
 ![](./images/arcadecabinet800x515.png)  |  ![](./images/ml1.png)
 [Online Arcade Cabinet for student games](https://hr-cmgt.github.io/arcade-server/) | Guest Lecture AI at [LAB Finland](https://www.lab.fi/en) 

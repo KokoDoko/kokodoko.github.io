@@ -51,7 +51,7 @@ My most recent experiment is a dive into ***[vibe coding](https://vibemanifesto.
     <td style="width:25%; ">
       <a href="https://kokodoko.github.io/llm-3d/">Visualising a language model in 3D</a>
     </td>
-    <td style="width:25%;">Self-learning flappy bird with evolutional algorithm</td>
+    <td style="width:25%;">Self-learning flappy bird with evolutional algorithm. <a href="https://kokodoko.github.io/flappy-evolution/">demo</a> and <a href="https://github.com/KokoDoko/flappy-evolution/">explanation</a></td>
   </tr>
 </table>
 <br>

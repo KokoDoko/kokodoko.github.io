@@ -9,17 +9,17 @@ Hi! I'm Erik, I teach at [Creative Media and Game Technologies - Rotterdam Unive
 
 <br>
 
-My most recent experiment is a dive into ***[vibe coding](https://vibemanifesto.org)*** by creating a [visualisation of a language model](https://kokodoko.github.io/llm-3d/).
+Recent AI research includes creating a [visualisation of a language model](https://kokodoko.github.io/llm-3d/), and trying to create a [3D visual](https://blocky-avatars.vercel.app/) just by prompting a language model. All according to the [vibes](https://vibemanifesto.org).
 
 
 <br><br><br>
 
 ## <a name="recent"></a>Recent
 
-| VR |  |
-|--------------------|--------------------|
-![](./images/cmgt-vr.png)  |  ![](./images/unity-vr.png)
-[Web XR Animated Logo](https://kokodoko.github.io/cmgt-logo-xr/)<br>*open this link on your VR headset* | [Unity XR Interaction Toolkit](https://youtu.be/nBZeMjhvK_k) 
+| VR |  |  |
+|--------------------|--------------------|------|
+![](./images/cmgt-vr.png)  |  ![](./images/unity-vr.png) | ![](./images/blockavatar.png) |
+[Web XR Animated Logo](https://kokodoko.github.io/cmgt-logo-xr/)<br>*Open this link on your VR headset* | [Unity XR Interaction Toolkit](https://youtu.be/nBZeMjhvK_k)<br>*Trying out XR interactions* | [Live AI-generated Blocky Avatars](https://blocky-avatars.vercel.app/) <br>*Using language models to create 3D shapes.*  |
 
 
 <table style="width:100%; table-layout: fixed; border-collapse: collapse;">
@@ -44,14 +44,14 @@ My most recent experiment is a dive into ***[vibe coding](https://vibemanifesto.
     </td>
   </tr>
   <tr>
-    <td style="width:25%; ">Custom Chat LLM to answer student questions</td>
+    <td style="width:25%; "><a href="https://ai-assistent-mu.vercel.app">Chatbot for programming course</a><br><i>This AI is trained to help students with study materials</i></td>
     <td style="width:25%; ">
-      <a href="https://www.youtube.com/watch?v=DMebdxAp0j0">PONG game controlled by body poses</a>
+      <a href="https://www.youtube.com/watch?v=DMebdxAp0j0">Control PONG with your body</a><br><i>Pose detection in the browser</i>
     </td>
     <td style="width:25%; ">
-      <a href="https://kokodoko.github.io/llm-3d/">Visualising a language model in 3D</a>
+      <a href="https://kokodoko.github.io/llm-3d/">Visualising a language model</a><br><i>See how words are related in 3D space</i>
     </td>
-    <td style="width:25%;">Self-learning flappy bird with evolutional algorithm. <a href="https://kokodoko.github.io/flappy-evolution/">demo</a> and <a href="https://github.com/KokoDoko/flappy-evolution/">explanation</a></td>
+    <td style="width:25%;"><a href="https://kokodoko.github.io/flappy-evolution/">Self-learning flappy bird</a><br><i>Neural evolution teaches flappy to fly forever (<a href="https://github.com/KokoDoko/flappy-evolution/">explanation</a>)</i></td>
   </tr>
 </table>
 <br>

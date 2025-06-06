@@ -14,18 +14,28 @@ Recent AI research includes creating a [visualisation of a language model](https
 
 <br><br><br>
 
-## <a name="recent"></a>Recent
+<!-- ## <a name="recent"></a>Recent -->
 
-| VR |  |  |
+
+
+| Recent |  |  |
 |--------------------|--------------------|------|
-![](./images/cmgt-vr.png)  |  ![](./images/unity-vr.png) | ![](./images/blockavatar.png) |
-[Web XR Animated Logo](https://kokodoko.github.io/cmgt-logo-xr/)<br>*Open this link on your VR headset* | [Unity XR Interaction Toolkit](https://youtu.be/nBZeMjhvK_k)<br>*Trying out XR interactions* | [Live AI-generated Blocky Avatars](https://blocky-avatars.vercel.app/) <br>*Using language models to create 3D shapes.*  |
+![](./images/avatar-screenshot.png)  | ![](./images/blockavatar.png) | ![](./images/llm-3d.png) |
+[Live Game Avatar Generator](https://blocky-avatars.vercel.app/)<br>*Generating AI 3D avatars live, based on user preferences*<br>[blog post](./blog/blocky.md) | [Do language models dream of blocky monsters?](https://blocky-avatars.vercel.app/) <br>*Trying to find out if a language model has a visual imagination.*<br>[blog post](./blog/blocky.md)  |  [Looking inside a Large Language Model](https://kokodoko.github.io/llm-3d/)<br>*Navigate words in an LLM in 3D space*<br>[blog post](https://kokodoko.github.io/llm-3d/) |
 
+<br><br><br>
+
+
+| VR |  |  
+|--------------------|--------------------|
+![](./images/cmgt-vr.png)  |  ![](./images/unity-vr.png) | 
+[Web XR Animated Logo](https://kokodoko.github.io/cmgt-logo-xr/)<br>*Open this link on your VR headset* | [Unity XR Interaction Toolkit](https://youtu.be/nBZeMjhvK_k)<br>*Trying out XR interactions* | 
+
+<br><br><br>
 
 <table style="width:100%; table-layout: fixed; border-collapse: collapse;">
   <tr>
     <td style="width:25%;"><h3>AI</h3></td>
-    <td style="width:25%; text-align: center;">&nbsp;</td>
     <td style="width:25%; text-align: center;">&nbsp;</td>
     <td style="width:25%; text-align: center;">&nbsp;</td>
   </tr>
@@ -37,9 +47,6 @@ Recent AI research includes creating a [visualisation of a language model](https
       <img src="./images/posepong.png" alt="Pose Pong" style="width:100%; aspect-ratio: 4/3; object-fit: cover;">
     </td>
     <td style="width:25%; text-align: center;">
-      <img src="./images/llm-3d.png" alt="LLM 3D" style="width:100%; aspect-ratio: 4/3; object-fit: cover;">
-    </td>
-    <td style="width:25%; text-align: center;">
       <img src="./images/birdyflap.gif" alt="Birdy Flap" style="width:100%; aspect-ratio: 4/3; object-fit: cover;">
     </td>
   </tr>
@@ -47,9 +54,6 @@ Recent AI research includes creating a [visualisation of a language model](https
     <td style="width:25%; "><a href="https://ai-assistent-mu.vercel.app">Chatbot for programming course</a><br><i>This AI is trained to help students with study materials</i></td>
     <td style="width:25%; ">
       <a href="https://www.youtube.com/watch?v=DMebdxAp0j0">Control PONG with your body</a><br><i>Pose detection in the browser</i>
-    </td>
-    <td style="width:25%; ">
-      <a href="https://kokodoko.github.io/llm-3d/">Visualising a language model</a><br><i>See how words are related in 3D space</i>
     </td>
     <td style="width:25%;"><a href="https://kokodoko.github.io/flappy-evolution/">Self-learning flappy bird</a><br><i>Neural evolution teaches flappy to fly forever (<a href="https://github.com/KokoDoko/flappy-evolution/">explanation</a>)</i></td>
   </tr>

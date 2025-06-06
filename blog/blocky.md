@@ -1,6 +1,11 @@
-# Using AI to generate Game Avatars
+# Using AI to generate In-Game Avatars
 
-In this post I want to share a few recent research results, where I try to generate live 3D shapes with AI. By "live" I mean that the 3D shapes are not pre-generated, but will be created based on the users preferences while the app or game is running.
+In this post I want to share two experiments for generating 3D content with AI in a live running game or application:
+
+|  |  |
+|--------------------|----------------|
+| <img src="./images/avatar1.png" width="100"/>  | [Using a language model to visualise a blocky world](#do-language-models-dream-of-blocky-monsters) |
+| <img src="./images/owl-alone.png" width="100"/> | [Generating surprising 3D models in a web app](#using-ai-to-generate-in-game-avatars) |
 
 <br><Br><br>
 
@@ -14,9 +19,9 @@ What would a cat look like if it was made out of 40 blocks? Tell me the size and
 Then, the results of the prompt are given to a traditional 3D engine, like Unity or in this case [ThreeJS](https://threejs.org). Some results:
 
 | Blocky Avatars |  |  |
-|--------------------|--------------------|------|
-![](./images/avatar1.png)  | ![](./images/avatar2.png) | ![](./images/avatar3.png) |
-![](./images/avatar4.png)  | ![](./images/avatar5.png) | ![](./images/avatar6.jpg) |
+|--------------------|----------------|------------------|
+| ![](./images/avatar3.png)  | ![](./images/avatar2.png) | ![](./images/avatar1.png) |
+| ![](./images/avatar5.png)  | ![](./images/avatar4.png) | ![](./images/avatar6.jpg) |
 
 
 <span style="font-size:1.2em;">[➡️ Create your own blocky monsters here](https://blocky-avatars.vercel.app/)</span>
@@ -25,14 +30,16 @@ Then, the results of the prompt are given to a traditional 3D engine, like Unity
 
 ## Using an actual 3D model generator
 
-Although using a LLM to create visuals is really fun, the results are highly erratic. The model seems unable to create more complex block configurations. 
+Although using a LLM to create visuals is really fun, the results are highly erratic. 
 
-The next step is to try out [StabilityAI](https://platform.stability.ai), this is a service that is good at generating 2D images *and* 3D models really fast.
+The next step was to try out [StabilityAI](https://platform.stability.ai), this is a service that is good at generating 2D images *and* 3D models really fast. To generate a 3D model, you have to supply an image. This image can also be generated, and to make it more fun I use chatGPT to create ideas for the image:
 
-The downside of the 3D model generator is that it needs an image to base the 3D model on. I decided to generate images based on a prompt sent to a language model. So the whole process takes 3 steps: 
+| StabilityAI |  | 
+|--------------------|----------------|
+| <img src="./images/turtle-2d.png" width="300">  | <img src="./images/turtle.png" width="300"> |
+| 2D image based on idea from chatGPT | The generated 3D model (`.glb` file) | 
 
 <br>
-
 
 ### Step 1
 

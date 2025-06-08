@@ -4,14 +4,16 @@ In this post I want to share two experiments for generating 3D content with AI i
 
 |  |  |
 |--------------------|----------------|
-| <img src="./images/avatar1.png" width="100"/>  | [Using a language model to visualise a blocky world](#do-language-models-dream-of-blocky-monsters) |
-| <img src="./images/owl-alone.png" width="100"/> | [Generating surprising 3D models in a web app](#using-ai-to-generate-in-game-avatars) |
+| <img src="./images/avatar1.png" width="100"/>  | Using language models to create visuals<br>[blog](#using-language-models-to-create-visuals)<br>https://blocky-avatars.vercel.app/ |
+| <img src="./images/owl-alone.png" width="100"/> | Generating 3D models in a web application<br>[blog](#generating-3d-models-in-a-web-application)<br>https://game-avatars.vercel.app/ |
 
 <br><Br><br>
 
-## Do language models dream of blocky monsters?
+## Using language models to create visuals
 
-In this first experiment I wanted to find out if a language model *(chatGPT 4o and chatGPT3.5)* has a visual imagination. My prompts to the model are like this:
+> Do language models dream of blocky monsters?
+
+In this first experiment I wanted to find out if a language model *(such as chatGPT)* has a visual imagination. My prompts to the model are like this:
 
 ```
 What would a cat look like if it was made out of 40 blocks? Tell me the size and location of those blocks in 3D space
@@ -28,11 +30,11 @@ Then, the results of the prompt are given to a traditional 3D engine, like Unity
 
 <br><Br><br>
 
-## Using an actual 3D model generator
+## Generating 3D models in a web application
 
 Although using a LLM to create visuals is really fun, the results are highly erratic. 
 
-The next step was to try out [StabilityAI](https://platform.stability.ai), this is a service that is good at generating 2D images *and* 3D models really fast. To generate a 3D model, you have to supply an image. This image can also be generated, and to make it more fun I use chatGPT to create ideas for the image:
+The next step was to try out [StabilityAI](https://platform.stability.ai), this is a service that is good at generating 2D images *and* 3D models really fast. To generate a 3D model, you have to supply an image. This image can also be generated, and to make it more fun I use chatGPT to create ideas for the image.
 
 | StabilityAI |  | 
 |--------------------|----------------|
@@ -41,6 +43,16 @@ The next step was to try out [StabilityAI](https://platform.stability.ai), this 
 
 <br>
 
+<span style="font-size:1.2em;">[➡️ Create your own 3d game avatars here](https://game-avatars.vercel.app/)</span>
+
+<br>
+<br>
+
+
+## Workflow
+
+The whole app is hosted on vercel.com, so the AI part is properly hidden from the end user.
+
 ### Step 1
 
 Prompting ChatGPT:
@@ -48,7 +60,7 @@ Prompting ChatGPT:
 ```
 Give me three ideas for cool game avatars, keep the ideas short and sweet. Here are some examples: a cute cat wearing a baseball cap, a skeleton wearing sunglasses, a scruffy dog wearing a bandshirt
 ```
-The ideas are shown as buttons.
+The ideas are shown as buttons in the user interface.
 
 ### Step 2
 
@@ -70,6 +82,11 @@ Here we send the image that was just generated *(and is stored on the server)* s
 ## Result
 
 ![robot](./images/avatar-generator-robot.png)
+
+<br>
+
+https://game-avatars.vercel.app/
+
 
 
 <br><Br><br>

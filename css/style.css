@@ -88,7 +88,7 @@ a:hover {
 
 
 
-.keyword {
+#tags .keyword {
     background: light-dark(#e8f4f8, #2a3f47);
     padding: 3px 14px;
     border-radius: 12px;

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using AI to generate In-Game Avatars | Erik Katerborg</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <h1>Using AI to generate In-Game Avatars</h1>
+            <p>Two experiments for generating 3D content with AI in a live running game or application</p>
+
+            <ul>
+                <li>Using language models to create visuals</li>
+                <li>Generating 3D models in a live game environment</li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+
+
+        <section id="using-language-models-to-create-visuals">
+            <h2>Using language models to create visuals</h2>
+
+            <blockquote>
+                <p><em>Do language models dream of blocky monsters?</em></p>
+            </blockquote>
+
+            <p>In this first experiment I wanted to find out if a language model <em>(such as chatGPT)</em> has a visual imagination. My prompts to the model are like this:</p>
+
+            <pre><code class="language-bash">What would a cat look like if it was made out of 40 blocks? Tell me the size and location of those blocks in 3D space</code></pre>
+
+            <p>Then, the results of the prompt are given to a traditional 3D engine, like Unity or in this case <a href="https://threejs.org">ThreeJS</a>. Some results:</p>
+
+            <div style="margin: 20px 0;">
+                <h3>Blocky Avatars</h3>
+                <div class="grid-container-3">
+                    <div class="grid-item">
+                        <img src="./images/avatar3.png" alt="Blocky Avatar 3">
+                    </div>
+                    <div class="grid-item">
+                        <img src="./images/avatar2.png" alt="Blocky Avatar 2">
+                    </div>
+                    <div class="grid-item">
+                        <img src="./images/avatar1.png" alt="Blocky Avatar 1">
+                    </div>
+                    <div class="grid-item">
+                        <img src="./images/avatar5.png" alt="Blocky Avatar 5">
+                    </div>
+                    <div class="grid-item">
+                        <img src="./images/avatar4.png" alt="Blocky Avatar 4">
+                    </div>
+                    <div class="grid-item">
+                        <img src="./images/avatar6.jpg" alt="Blocky Avatar 6">
+                    </div>
+                </div>
+            </div>
+
+            <p style="font-size: 1.2em; text-align: center; margin: 30px 0;">
+                <a href="https://blocky-avatars.vercel.app/">➡️ Create your own blocky monsters here</a>
+            </p>
+        </section>
+
+        <section id="generating-3d-models-in-a-web-application">
+            <h2>Generating 3D models in a web application</h2>
+
+            <p>Although using a LLM to create visuals is really fun, the results are highly erratic.</p>
+
+            <p>The next step was to try out <a href="https://platform.stability.ai">StabilityAI</a>, this is a service that is good at generating 2D images <em>and</em> 3D models really fast. To generate a 3D model, you have to supply an image. This image can also be generated, and to make it more fun I use chatGPT to create ideas for the image.</p>
+
+            <div style="margin: 20px 0;">
+                <h3>StabilityAI</h3>
+                <div class="grid-container-2">
+                    <div class="grid-item">
+                        <img src="./images/turtle-2d.png" alt="2D Turtle Image">
+                        <p>2D image based on idea from chatGPT</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="./images/turtle.png" alt="3D Turtle Model">
+                        <p>The generated 3D model (<code>.glb</code> file)</p>
+                    </div>
+                </div>
+            </div>
+
+            <p style="font-size: 1.2em; text-align: center; margin: 30px 0;">
+                <a href="https://game-avatars.vercel.app/">➡️ Create your own 3d game avatars here</a>
+            </p>
+        </section>
+
+        <section>
+            <h2>Workflow</h2>
+
+            <p>The whole app is hosted on vercel.com, so the AI part is properly hidden from the end user.</p>
+
+            <h3>Step 1</h3>
+            <p>Prompting ChatGPT:</p>
+
+            <pre><code class="language-bash">Give me three ideas for cool game avatars, keep the ideas short and sweet. Here are some examples: a cute cat wearing a baseball cap, a skeleton wearing sunglasses, a scruffy dog wearing a bandshirt</code></pre>
+
+            <p>The ideas are shown as buttons in the user interface.</p>
+
+            <h3>Step 2</h3>
+            <p>Prompting StabilityAI for an image is done with the text from the button that the user clicked:</p>
+
+            <pre><code class="language-bash">Create a simple image for a cheerful robot with headphones. Keep the image simple, without any background and not too much detail. It can look like a toy.</code></pre>
+
+            <h3>Step 3</h3>
+            <p>Here we send the image that was just generated <em>(and is stored on the server)</em> straight back to StabilityAI, to create a 3D model. This whole model gets sent back to the user as a <code>glb</code> file. In this demo I display the <code>glb</code> directly using <a href="https://modelviewer.dev">modelviewer</a>.</p>
+        </section>
+
+        <section>
+            <h2>Result</h2>
+
+            <div style="text-align: center; margin: 20px 0;">
+                <img src="./images/avatar-generator-robot.png" alt="Avatar Generator Robot" style="max-width: 600px;">
+            </div>
+
+            <p style="text-align: center; font-size: 1.2em;">
+                <a href="https://game-avatars.vercel.app/">https://game-avatars.vercel.app/</a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <a href="index.html">← Back to Portfolio</a> |
+        <a href="https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/creative-media-and-game-technologies/voltijd/">CMGT Rotterdam</a> |
+        <a href="https://www.linkedin.com/in/eerkmans/">LinkedIn</a> |
+        <a href="https://github.com/KokoDoko">Github</a>
+    </footer>
+
+</body>
+
+</html>

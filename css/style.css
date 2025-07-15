@@ -46,7 +46,7 @@ footer {
     max-width: 960px;
     margin: 0 auto;
     padding: 20px;
-        background: light-dark(#ffffffce, #1e1e1e88);
+    background: light-dark(#ffffffce, #1e1e1e88);
     border-radius: 8px;
 }
 
@@ -96,6 +96,17 @@ a:hover {
     opacity: 0.8;
     display: inline-block;
     margin:2px;
+}
+
+figure .illustration {
+    width:100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+pre {
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .grid-container-2,

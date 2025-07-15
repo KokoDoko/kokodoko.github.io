@@ -24,11 +24,23 @@
     <main>
         <section>
             <h2>What is TensorFlow?</h2>
-            <p>Tensorflow is a machine learning library that lets you create neural networks. This can be used for classification, regression, image recognition, and other machine learning tasks. Essentially, a neural network can <strong>recognise patterns in complex data</strong>.</p>
-            <p><a href="https://www.tensorflow.org/js">TensorflowJS</a> uses javascript and can run in the browser or in node. In this tutorial I want to create a simple <strong>classification network</strong>, just to get to grips with the <em>terminology, pitfalls and basic workflow</em> of tensorflowJS.</p>
+            <p>
+                Tensorflow is a machine learning library that lets you create neural networks. A neural network can <strong>recognise patterns in complex data</strong>. In this tutorial I want to create a simple <strong>classification network</strong>, the goal is to get to grips with the <em>terminology, pitfalls and basic workflow</em> of tensorflowJS.
+            </p>
 
             <h2>Neural Networks</h2>
-            <p>A neural network is essentially an algorithm that uses weights and activation functions, which allow it to recognise patterns in the most complicated data. <a href="https://playground.tensorflow.org/">Try it out here!</a></p>
+                
+                <p>A Neural Network is a collection of inputs and outputs that are all connected to each other. The idea is that this network can <em>learn</em> from data that it is presented with. In this tutorial we use <em>animal features (size, weight, tail length and ear length)</em> to teach the network to recognize dogs, cats and mice.<br>
+                <figure>
+                    <img class="illustration" src="./images/neuro-catdog.png" alt="Neural network diagram">
+                    <figcaption>Illustration: Neural network diagram for animal classification</figcaption>
+                </figure>
+
+                <ul>
+                    <li><a href="https://kokodoko.github.io/perceptron/">This animation</a> shows how a single-cell brain learns that cats have claws, but dogs don't.</a></li>
+                    <li><a href="https://playground.tensorflow.org/">You can build your own neural network in the TensorFlow playground</a></li>
+                </ul>
+            
         </section>
 
         <section>
@@ -64,7 +76,6 @@
         </section>
         <section>
 
-            <!-- <img src="./images/neuro-catdog.png" alt="Neural network diagram"> -->
 
             <!-- SVG NEURAL NETWORK - TODO ANIMATIONS -->
             <h1>Neural Network Architecture</h1>

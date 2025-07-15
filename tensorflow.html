@@ -44,10 +44,10 @@
         </section>
 
         <section>
-            <h2>Goal</h2>
+            <h2>Data</h2>
             <p>Today's goal is to create a <strong>classification network</strong> that can learn to recognise <em>dogs, cats and mice</em> by looking at their features: <em>size, weight, tail length, and ear size</em>.</p>
 
-            <p>We start out with a demo dataset. We have 12 animals, each with features and a label.</p>
+            <p>Take a look at this demo dataset. We have 12 animals, each with features and a label.</p>
 
             <pre><code class="language-javascript">const data = [
     [[18, 19, 5, 14], "dog"],    
@@ -64,198 +64,17 @@
     [[0.6, 0.4, 2, 1], "mouse"]
 ];</code></pre>
 
-            <p>The first thing to determine from this data is what shape the neural network should have.</p>
-
             <ul>
-                <li>There is always an <em>input layer</em> which has a cell for each feature. In this case four cells.</li>
-                <li>There is always an <em>output layer</em> which has a cell for each class that could possibly be predicted. Since we have 3 different animals this should have 3 cells.</li>
-                <li>In between there are hidden layers. In this simple example we put one hidden layer with 10 cells.</li>
+                <li>Since our animals have <em>four features (size, weight, tail, ears)</em> our network has <em>four input cells.</em></li>
+                <li>Since our dataset contains three animals, the network output has <em>three output cells.</em></li>
+                <li>In between there are hidden layers. In this example we put one hidden layer with 10 cells.</li>
             </ul>
 
-
         </section>
-        <section>
-
-
-            <!-- SVG NEURAL NETWORK - TODO ANIMATIONS -->
-            <h1>Neural Network Architecture</h1>
-            <div class="svg-container">
-
-                <svg width="100%" height="auto" viewBox="0 0 100 62.5" preserveAspectRatio="xMidYMid meet">
-                    <!-- Layer Labels -->
-                    <text x="12.5" y="3.75" class="layer-label">Input Layer</text>
-                    <text x="50" y="3.75" class="layer-label">Hidden Layer</text>
-                    <text x="87.5" y="3.75" class="layer-label">Output Layer</text>
-
-                    <!-- Connections from Input to Hidden -->
-                    <!-- Input 1 to all Hidden -->
-                    <line x1="12.5" y1="17.5" x2="50" y2="10" class="connection" />
-                    <line x1="12.5" y1="17.5" x2="50" y2="15" class="connection" />
-                    <line x1="12.5" y1="17.5" x2="50" y2="20" class="connection" />
-                    <line x1="12.5" y1="17.5" x2="50" y2="25" class="connection" />
-                    <line x1="12.5" y1="17.5" x2="50" y2="30" class="connection" />
-                    <line x1="12.5" y1="17.5" x2="50" y2="35" class="connection" />
-                    <line x1="12.5" y1="17.5" x2="50" y2="40" class="connection" />
-                    <line x1="12.5" y1="17.5" x2="50" y2="45" class="connection" />
-                    <line x1="12.5" y1="17.5" x2="50" y2="50" class="connection" />
-                    <line x1="12.5" y1="17.5" x2="50" y2="55" class="connection" />
-
-                    <!-- Input 2 to all Hidden -->
-                    <line x1="12.5" y1="27.5" x2="50" y2="10" class="connection" />
-                    <line x1="12.5" y1="27.5" x2="50" y2="15" class="connection" />
-                    <line x1="12.5" y1="27.5" x2="50" y2="20" class="connection" />
-                    <line x1="12.5" y1="27.5" x2="50" y2="25" class="connection" />
-                    <line x1="12.5" y1="27.5" x2="50" y2="30" class="connection" />
-                    <line x1="12.5" y1="27.5" x2="50" y2="35" class="connection" />
-                    <line x1="12.5" y1="27.5" x2="50" y2="40" class="connection" />
-                    <line x1="12.5" y1="27.5" x2="50" y2="45" class="connection" />
-                    <line x1="12.5" y1="27.5" x2="50" y2="50" class="connection" />
-                    <line x1="12.5" y1="27.5" x2="50" y2="55" class="connection" />
-
-                    <!-- Input 3 to all Hidden -->
-                    <line x1="12.5" y1="37.5" x2="50" y2="10" class="connection" />
-                    <line x1="12.5" y1="37.5" x2="50" y2="15" class="connection" />
-                    <line x1="12.5" y1="37.5" x2="50" y2="20" class="connection" />
-                    <line x1="12.5" y1="37.5" x2="50" y2="25" class="connection" />
-                    <line x1="12.5" y1="37.5" x2="50" y2="30" class="connection" />
-                    <line x1="12.5" y1="37.5" x2="50" y2="35" class="connection" />
-                    <line x1="12.5" y1="37.5" x2="50" y2="40" class="connection" />
-                    <line x1="12.5" y1="37.5" x2="50" y2="45" class="connection" />
-                    <line x1="12.5" y1="37.5" x2="50" y2="50" class="connection" />
-                    <line x1="12.5" y1="37.5" x2="50" y2="55" class="connection" />
-
-                    <!-- Input 4 to all Hidden -->
-                    <line x1="12.5" y1="47.5" x2="50" y2="10" class="connection" />
-                    <line x1="12.5" y1="47.5" x2="50" y2="15" class="connection" />
-                    <line x1="12.5" y1="47.5" x2="50" y2="20" class="connection" />
-                    <line x1="12.5" y1="47.5" x2="50" y2="25" class="connection" />
-                    <line x1="12.5" y1="47.5" x2="50" y2="30" class="connection" />
-                    <line x1="12.5" y1="47.5" x2="50" y2="35" class="connection" />
-                    <line x1="12.5" y1="47.5" x2="50" y2="40" class="connection" />
-                    <line x1="12.5" y1="47.5" x2="50" y2="45" class="connection" />
-                    <line x1="12.5" y1="47.5" x2="50" y2="50" class="connection" />
-                    <line x1="12.5" y1="47.5" x2="50" y2="55" class="connection" />
-
-                    <!-- Connections from Hidden to Output -->
-                    <!-- Hidden 1 to all Output -->
-                    <line x1="50" y1="10" x2="87.5" y2="18.75" class="connection" />
-                    <line x1="50" y1="10" x2="87.5" y2="31.25" class="connection" />
-                    <line x1="50" y1="10" x2="87.5" y2="43.75" class="connection" />
-
-                    <!-- Hidden 2 to all Output -->
-                    <line x1="50" y1="15" x2="87.5" y2="18.75" class="connection" />
-                    <line x1="50" y1="15" x2="87.5" y2="31.25" class="connection" />
-                    <line x1="50" y1="15" x2="87.5" y2="43.75" class="connection" />
-
-                    <!-- Hidden 3 to all Output -->
-                    <line x1="50" y1="20" x2="87.5" y2="18.75" class="connection" />
-                    <line x1="50" y1="20" x2="87.5" y2="31.25" class="connection" />
-                    <line x1="50" y1="20" x2="87.5" y2="43.75" class="connection" />
-
-                    <!-- Hidden 4 to all Output -->
-                    <line x1="50" y1="25" x2="87.5" y2="18.75" class="connection" />
-                    <line x1="50" y1="25" x2="87.5" y2="31.25" class="connection" />
-                    <line x1="50" y1="25" x2="87.5" y2="43.75" class="connection" />
-
-                    <!-- Hidden 5 to all Output -->
-                    <line x1="50" y1="30" x2="87.5" y2="18.75" class="connection" />
-                    <line x1="50" y1="30" x2="87.5" y2="31.25" class="connection" />
-                    <line x1="50" y1="30" x2="87.5" y2="43.75" class="connection" />
-
-                    <!-- Hidden 6 to all Output -->
-                    <line x1="50" y1="35" x2="87.5" y2="18.75" class="connection" />
-                    <line x1="50" y1="35" x2="87.5" y2="31.25" class="connection" />
-                    <line x1="50" y1="35" x2="87.5" y2="43.75" class="connection" />
-
-                    <!-- Hidden 7 to all Output -->
-                    <line x1="50" y1="40" x2="87.5" y2="18.75" class="connection" />
-                    <line x1="50" y1="40" x2="87.5" y2="31.25" class="connection" />
-                    <line x1="50" y1="40" x2="87.5" y2="43.75" class="connection" />
-
-                    <!-- Hidden 8 to all Output -->
-                    <line x1="50" y1="45" x2="87.5" y2="18.75" class="connection" />
-                    <line x1="50" y1="45" x2="87.5" y2="31.25" class="connection" />
-                    <line x1="50" y1="45" x2="87.5" y2="43.75" class="connection" />
-
-                    <!-- Hidden 9 to all Output -->
-                    <line x1="50" y1="50" x2="87.5" y2="18.75" class="connection" />
-                    <line x1="50" y1="50" x2="87.5" y2="31.25" class="connection" />
-                    <line x1="50" y1="50" x2="87.5" y2="43.75" class="connection" />
-
-                    <!-- Hidden 10 to all Output -->
-                    <line x1="50" y1="55" x2="87.5" y2="18.75" class="connection" />
-                    <line x1="50" y1="55" x2="87.5" y2="31.25" class="connection" />
-                    <line x1="50" y1="55" x2="87.5" y2="43.75" class="connection" />
-
-                    <!-- Input Layer Neurons -->
-                    <circle cx="12.5" cy="17.5" r="1.875" class="neuron input-neuron" />
-                    <text x="12.5" y="18.125" class="neuron-label">I1</text>
-
-                    <circle cx="12.5" cy="27.5" r="1.875" class="neuron input-neuron" />
-                    <text x="12.5" y="28.125" class="neuron-label">I2</text>
-
-                    <circle cx="12.5" cy="37.5" r="1.875" class="neuron input-neuron" />
-                    <text x="12.5" y="38.125" class="neuron-label">I3</text>
-
-                    <circle cx="12.5" cy="47.5" r="1.875" class="neuron input-neuron" />
-                    <text x="12.5" y="48.125" class="neuron-label">I4</text>
-
-                    <!-- Hidden Layer Neurons -->
-                    <circle cx="50" cy="10" r="1.875" class="neuron" />
-                    <text x="50" y="10.625" class="neuron-label">H1</text>
-
-                    <circle cx="50" cy="15" r="1.875" class="neuron" />
-                    <text x="50" y="15.625" class="neuron-label">H2</text>
-
-                    <circle cx="50" cy="20" r="1.875" class="neuron" />
-                    <text x="50" y="20.625" class="neuron-label">H3</text>
-
-                    <circle cx="50" cy="25" r="1.875" class="neuron" />
-                    <text x="50" y="25.625" class="neuron-label">H4</text>
-
-                    <circle cx="50" cy="30" r="1.875" class="neuron" />
-                    <text x="50" y="30.625" class="neuron-label">H5</text>
-
-                    <circle cx="50" cy="35" r="1.875" class="neuron" />
-                    <text x="50" y="35.625" class="neuron-label">H6</text>
-
-                    <circle cx="50" cy="40" r="1.875" class="neuron" />
-                    <text x="50" y="40.625" class="neuron-label">H7</text>
-
-                    <circle cx="50" cy="45" r="1.875" class="neuron" />
-                    <text x="50" y="45.625" class="neuron-label">H8</text>
-
-                    <circle cx="50" cy="50" r="1.875" class="neuron" />
-                    <text x="50" y="50.625" class="neuron-label">H9</text>
-
-                    <circle cx="50" cy="55" r="1.875" class="neuron" />
-                    <text x="50" y="55.625" class="neuron-label">H10</text>
-
-                    <!-- Output Layer Neurons -->
-                    <circle cx="87.5" cy="18.75" r="1.875" class="neuron output-neuron" />
-                    <text x="87.5" y="19.375" class="neuron-label">O1</text>
-
-                    <circle cx="87.5" cy="31.25" r="1.875" class="neuron output-neuron" />
-                    <text x="87.5" y="31.875" class="neuron-label">O2</text>
-
-                    <circle cx="87.5" cy="43.75" r="1.875" class="neuron output-neuron" />
-                    <text x="87.5" y="44.375" class="neuron-label">O3</text>
-                </svg>
-
-                <div style="text-align: center; margin-top: 20px; color: #666;">
-                    <p><strong>Architecture:</strong> 4 Input → 10 Hidden → 3 Output</p>
-                    <p style="font-size: 12px;">
-                        <span style="color: #2196F3;">■</span> Input Layer &nbsp;&nbsp;
-                        <span style="color: #4CAF50;">■</span> Hidden Layer &nbsp;&nbsp;
-                        <span style="color: #FF9800;">■</span> Output Layer
-                    </p>
-                </div>
-            </div>
-
-        </section>
+       
 
         <section>
-            <h2>Project setup</h2>
+            <h2>Let's start coding!</h2>
             <p>In this example I set up a frontend Vite project with VanillaJS. The frontend will give us some nice visualisations.</p>
 
             <pre><code class="language-bash">npm create vite@latest
@@ -270,30 +89,28 @@ import * as tfvis from '@tensorflow/tfjs-vis';</code></pre>
         </section>
 
         <section>
-            <h2>Boilerplate</h2>
-            <p>We can grab a code example for <em>classification</em> from the <a href="https://www.tensorflow.org/js/tutorials">tensorflowjs website</a>.</p>
+            <h2>Creating the neural network</h2>
+            <p>We can grab a code example for <em>classification</em> from the <a href="https://www.tensorflow.org/js/tutorials">tensorflowjs website</a>.<br>
+            <p>By using <code>classificationModel.add()</code> we can add layers to the network.</p>           
+             <pre><code class="language-javascript">const classificationModel = tf.sequential();
 
-            <p>The following code creates a neural network with the layer architecture as mentioned above. The comments attempt to explain what is happening:</p>
+classificationModel.add(tf.layers.dense({ units: 10, inputShape: [4], activation: 'relu' }));   // hidden layer with input layer
+classificationModel.add(tf.layers.dense({ units: 3, activation: 'softmax' }));                  // cat, dog, mouse
 
-            <pre><code class="language-javascript">const classificationModel = tf.sequential();
-
-// add the hidden layer of 10 units
-// for the first hidden layer we also have to supply the input shape, which has 4 units
-classificationModel.add(tf.layers.dense({ units: 10, inputShape: [4], activation: 'relu' }));
-
-// the final layer has 3 output units (cat, dog, mouse)
-classificationModel.add(tf.layers.dense({ units: 3, activation: 'softmax' })); 
-
-// this line creates the model with settings that work well for classification
 classificationModel.compile({
     loss: 'categoricalCrossentropy',
     optimizer: 'adam',
     metrics: ['accuracy']
 });</code></pre>
 
-            <p>The <code>relu activation</code> is a function that decides how important a cell is in the network. Different functions can be used here, but for <code>classification</code> the <code>relu</code> function is advised.</p>
+            <ul>
+                <li>The first input layer does not have to be added separately. Instead, the first input layer (with 4 cells) is a property of the first hidden layer (with 10 cells).</li>
+                <li>Then, we add the output layer with 3 cells.</li>
+                <li>The <code>relu activation</code> is a function that decides how important a cell is in the network</li>
+                <li>The <code>softmax activation</code> determines how the final result should be shown in the 3 output cells. In this case, we will get a nice percentage from 0 to 1. All three outputs together will be 100%</li>
+            </ul>
 
-            <p>The <code>softmax activation</code> determines how the final result should be shown in the 3 output cells. In this case each cell will have a probability from 0 to 1. All three cells added up will always result in 1. For example, the output could be <code>[0.8, 0.1, 0.1]</code></p>
+
         </section>
 
         <section>
@@ -404,6 +221,14 @@ console.log(`I think it's a: ${className}`);</code></pre>
             <h2>Visualising training</h2>
             <p>In our current code we have no idea how many epochs we need, or if our one hidden layer is enough to run the <code>fit</code> function. We can visualise the training with the <a href="https://js.tensorflow.org/api_vis/1.5.1/">Tensorflow Visor Library</a></p>
 
+            <figure>
+                <img class="illustration" src="./images/tfvis.png" alt="Neural network diagram">
+                <figcaption>Illustration: visualising the training process</figcaption>
+            </figure>
+
+            <p>Code</p>
+
+
             <pre><code class="language-javascript">await classificationModel.fit(trainingData, labels, {
     epochs: 250,
     callbacks: tfvis.show.fitCallbacks({ name: 'Training' }, ['loss'], {
@@ -416,10 +241,10 @@ tfvis.show.modelSummary({ name: 'Model' }, classificationModel);</code></pre>
         </section>
 
         <section>
-            <h2>Memory leaks</h2>
-            <p>Creating a tensor is done on the GPU, and they have to be disposed of manually when no longer needed. This can be done using <code>dispose</code> and <code>tf.tidy</code>.</p>
+            <h2>Putting it all together</h2>
+            <p>We should organise our code a bit nicer in functions.<br>
+            We also have to dispose of created <code>tensor</code> objects! This can be done using <code>dispose()</code> and <code>tf.tidy()</code>.</p>
 
-            <p>We also should organise our code a bit nicer in functions at least. The whole code now looks like this:</p>
 
             <pre><code class="language-javascript">let classificationModel
 
@@ -479,7 +304,6 @@ console.log(`I think it's a ${result}`);</code></pre>
                 <li>We should create a function that converts the training labels automatically into the "one-hot-encoding" format</li>
                 <li>Data should be normalized before training, otherwise the model will incorrectly assume that a feature with a bigger range is more important than a feature with lower range.</li>
                 <li>We should create test data and an <code>evaluate</code> function to test if our model actually predicts well on unknown, but labeled, animal data.</li>
-                <li>Adding more layers</li>
                 <li>We should be able to save a model after training</li>
             </ul>
         </section>

@@ -5,7 +5,8 @@ body {
     font-family: sans-serif;
     line-height: 1.6;
     margin: 20px;
-    background-color: light-dark(#f4f4f4, #121212);
+    background-color: light-dark(#f4f4f4, #261d3b);
+    /* background: linear-gradient(135deg, #667eea35 0%, #764ba23f 100%); */
     color: light-dark(#333, #eee);
 }
 
@@ -45,8 +46,16 @@ footer {
     max-width: 960px;
     margin: 0 auto;
     padding: 20px;
-    background: light-dark(#fff, #1e1e1e);
+        background: light-dark(#ffffffce, #1e1e1e88);
     border-radius: 8px;
+}
+
+section {
+    padding: 20px;
+    background: light-dark(#ffffffce, #1e1e1e88);
+    border-radius: 8px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 main {
@@ -77,13 +86,7 @@ a:hover {
     text-decoration: underline;
 }
 
-section {
-    padding: 20px;
-    background: light-dark(#fff, #1e1e1e);
-    border-radius: 8px;
-    margin-bottom: 30px;
-    padding-bottom: 20px;
-}
+
 
 .keyword {
     background: light-dark(#e8f4f8, #2a3f47);
@@ -115,7 +118,7 @@ section {
 }
 
 .grid-item {
-    background: light-dark(#f9f9f9, #2c2c2c);
+    background: light-dark(#f9f9f9, #2c2c2c93);
     padding: 15px;
     border-radius: 5px;
     text-align: center;

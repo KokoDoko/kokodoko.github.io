@@ -1,0 +1,74 @@
+.svg-container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: none;
+    box-sizing: border-box;
+}
+
+
+ .layer-label {
+     font-size: 1.75px;
+     font-weight: bold;
+     fill: #333;
+     text-anchor: middle;
+ }
+
+ .connection {
+     stroke: #ddd;
+    stroke-width: 0.4;
+     opacity: 0.6;
+ }
+
+ .connection:hover {
+     stroke: #4CAF50;
+    stroke-width: 0.8;
+     opacity: 1;
+ }
+
+ .neuron {
+     fill: #4CAF50;
+     /* stroke: #2E7D32;
+     stroke-width: 2; */
+     cursor: pointer;
+     transition: all 0.3s ease;
+ }
+
+ /* .neuron:hover {
+     fill: #66BB6A;
+     stroke: #1B5E20;
+     stroke-width: 3;
+     r: 18;
+ } */
+
+ .input-neuron {
+     fill: #2196F3;
+     stroke: #0D47A1;
+    stroke-width: 0.3;
+ }
+
+ .input-neuron:hover {
+     fill: #42A5F5;
+     stroke: #0D47A1;
+ }
+
+ .output-neuron {
+     fill: #FF9800;
+     stroke: #E65100;
+    stroke-width: 0.3;
+ }
+
+ .output-neuron:hover {
+     fill: #FFB74D;
+     stroke: #E65100;
+ }
+
+ .neuron-label {
+     font-size: 1.25px;
+     fill: white;
+     text-anchor: middle;
+     font-weight: bold;
+     pointer-events: none;
+ }

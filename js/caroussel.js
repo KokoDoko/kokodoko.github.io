@@ -23,6 +23,30 @@ slides.forEach((slide, index) => {
     // Add click event listener immediately when creating the dot
     dot.addEventListener('click', function() {
         const slideIndex = parseInt(this.getAttribute('data-slide'));
+        stopAutoSlide();
+        currentSlideIndex = slideIndex;
+        slides.forEach(slide => {
+            slide.classList.remove('active');
+        });
+        document.querySelectorAll('.dot').forEach(d => {
+            d.classList.remove('active');
+        });
+        slides[slideIndex].classList.add('active');
+        this.classList.add('active');
+    });
+    
+    dotsContainer.appendChild(dot);
+});
+
+// Auto-transition slides every 3 seconds
+let currentSlideIndex = 0;
+let autoSlideInterval;
+const totalSlides = slides.length;
+
+function startAutoSlide() {
+    autoSlideInterval = setInterval(() => {
+        // Move to next slide
+        currentSlideIndex = (currentSlideIndex + 1) % totalSlides;
         
         // Remove active class from all slides and dots
         slides.forEach(slide => {
@@ -32,31 +56,18 @@ slides.forEach((slide, index) => {
             d.classList.remove('active');
         });
         
-        // Add active class to target slide and dot
-        slides[slideIndex].classList.add('active');
-        this.classList.add('active');
-    });
-    
-    dotsContainer.appendChild(dot);
-});
+        // Add active class to current slide and dot
+        slides[currentSlideIndex].classList.add('active');
+        document.querySelectorAll('.dot')[currentSlideIndex].classList.add('active');
+    }, 4500);
+}
 
-// Auto-transition slides every 2 seconds
-let currentSlideIndex = 0;
-const totalSlides = slides.length;
+function stopAutoSlide() {
+    if (autoSlideInterval) {
+        clearInterval(autoSlideInterval);
+        autoSlideInterval = null;
+    }
+}
 
-setInterval(() => {
-    // Move to next slide
-    currentSlideIndex = (currentSlideIndex + 1) % totalSlides;
-    
-    // Remove active class from all slides and dots
-    slides.forEach(slide => {
-        slide.classList.remove('active');
-    });
-    document.querySelectorAll('.dot').forEach(d => {
-        d.classList.remove('active');
-    });
-    
-    // Add active class to current slide and dot
-    slides[currentSlideIndex].classList.add('active');
-    document.querySelectorAll('.dot')[currentSlideIndex].classList.add('active');
-}, 3000);
+// Start the auto-slide initially
+startAutoSlide();

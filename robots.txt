@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Allow all crawlers to access all content
+# This is a portfolio site that should be indexed
+
+Sitemap: https://kokodoko.github.io/sitemap.xml

@@ -1,4 +1,8 @@
 /* Carousel Styles */
+/* section#tutorials {
+    padding: 0 0 20px 0;
+} */
+
 .carousel {
     position: relative;
     width: 100%;
@@ -11,7 +15,16 @@
     height: 200px;
     overflow: hidden;
     border-radius: 10px;
-    /* border:1px solid rgba(255, 255, 255, 0.502);  */
+    /* border: 1px solid light-dark(rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0.5));  */
+    /* background: light-dark(#f9f9f9, #2c2c2c93); */
+}
+
+.carousel-container-large {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 10px;
+    /* border: 2px solid light-dark(rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0.8));  */
     /* background: light-dark(#f9f9f9, #2c2c2c93); */
 }
 
@@ -65,6 +78,15 @@
     background-color: #183149b5;
     padding: 4px 20px;
     border-radius: 12px;
+}
+
+/* Special styling for P tags in large carousels - align to bottom */
+.carousel-container-large .carousel-slide {
+    align-items: flex-end;
+}
+
+.carousel-container-large .carousel-content {
+    align-self: flex-end;
 }
 
 .carousel-link {
@@ -128,6 +150,10 @@
 @media (max-width: 768px) {
     .carousel-container {
         height: 250px;
+    }
+
+    .carousel-container-large {
+        height: 500px;
     }
 
     .carousel-content h3 {

@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Erik Katerborg | Creative Technologist | Lecturer</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/caroussel.css">
+    <script defer src="./js/caroussel.js"></script>
 </head>
 <body>
 
@@ -20,15 +22,60 @@
 
     <main>
         <section id="tutorials">
-            <h2>Creative AI Tutorials</h2>
-            <ul>
-                <li><a href="./tensorflow.html">Getting started with TensorFlow machine learning</a></li>
-                <li><a href="./blocky.html">Generate live in-game 3D content</a></li>
-                <li>Getting started with WebXR <em>(soon)</em></li>
-                <li>Creating a Unity component for live in-game conversations <em>(soon)</em></li>
-                <li><a href="./blocky.html">Can a large language model think visually?</a></li>
-                <li><a href="https://kokodoko.github.io/llm-3d/">Looking inside a large language model</a></li>
-            </ul>
+            <div class="carousel">
+                <div class="carousel-container">
+                    <div class="carousel-slide active" data-bg-image="./images/bg.png">
+                        <div class="carousel-content">
+                            <h3>Creative AI</h3>
+                            <p>A few slides from recent <em>Creative AI</em> presentations</p>
+                            <span class="carousel-link coming-soon">Coming Soon</span>
+                        </div>
+                    </div>
+                    <div class="carousel-slide" data-bg-image="./images/neuralnetwork.jpg">
+                        <div class="carousel-content">
+                            <h3>Getting started with TensorFlow</h3>
+                            <p>Learn the fundamentals of Machine Learning in the browser</p>
+                            <a href="./blog/tensorflow.html" class="carousel-link">Read Tutorial</a>
+                        </div>
+                    </div>
+                    <div class="carousel-slide" data-bg-image="./images/blockavatar.png">
+                        <div class="carousel-content">
+                            <h3>Generate live in-game 3D content</h3>
+                            <p>Create dynamic 3D content using AI for your games and applications</p>
+                            <a href="./blog/blocky.html" class="carousel-link">Read Tutorial</a>
+                        </div>
+                    </div>
+                    <div class="carousel-slide" data-bg-image="./images/cmgt-vr.png">
+                        <div class="carousel-content">
+                            <h3>Getting started with WebXR</h3>
+                            <p>Build immersive XR experiences directly in the web browser</p>
+                            <span class="carousel-link coming-soon">Coming Soon</span>
+                        </div>
+                    </div>
+                    <div class="carousel-slide" data-bg-image="./images/ai-conversations-in-unity.png">
+                        <div class="carousel-content">
+                            <h3>Creating a Unity component for live in-game conversations</h3>
+                            <p>Build AI-powered NPCs that can have natural conversations with players</p>
+                            <span class="carousel-link coming-soon">Coming Soon</span>
+                        </div>
+                    </div>
+                    <div class="carousel-slide" data-bg-image="./images/avatar-screenshot.png">
+                        <div class="carousel-content">
+                            <h3>Can a large language model think visually?</h3>
+                            <p>Exploring the visual imagination capabilities of modern AI language models</p>
+                            <a href="./blog/blocky.html" class="carousel-link">Read Tutorial</a>
+                        </div>
+                    </div>
+                    <div class="carousel-slide" data-bg-image="./images/llm-3d.png">
+                        <div class="carousel-content">
+                            <h3>Looking inside a large language model</h3>
+                            <p>Navigate and visualize the internal workings of language models in 3D space</p>
+                            <a href="https://kokodoko.github.io/llm-3d/" class="carousel-link">Read Tutorial</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-dots"></div>
+            </div>
         </section>
 
         <section id="recent">
@@ -37,12 +84,12 @@
                 <div class="grid-item">
                     <img src="./images/avatar-screenshot.png" alt="Live Game Avatar Generator">
                     <a href="https://blocky-avatars.vercel.app/">Live Game Avatar Generator</a>
-                    <p>Generating AI 3D avatars live, based on user preferences<br><a href="./blog/blocky.md">blog post</a></p>
+                    <p>Generating AI 3D avatars live, based on user preferences<br><a href="./blog/blocky.html">blog post</a></p>
                 </div>
                 <div class="grid-item">
                     <img src="./images/blockavatar.png" alt="Blocky Avatars">
                     <a href="https://blocky-avatars.vercel.app/">Do language models dream of blocky monsters?</a>
-                    <p>Trying to find out if a language model has a visual imagination.<br><a href="./blog/blocky.md">blog post</a></p>
+                    <p>Trying to find out if a language model has a visual imagination.<br><a href="./blog/blocky.html">blog post</a></p>
                 </div>
                 <div class="grid-item">
                     <img src="./images/llm-3d.png" alt="LLM 3D">
@@ -51,7 +98,7 @@
                 </div>
                 <div class="grid-item">
                     <img src="./images/ai-conversations-in-unity.png" alt="AI Conversations in Unity">
-                    <p>Live AI generated conversations in Unity</p>
+                    <p><a href="https://www.youtube.com/watch?v=gGeUM150Kbw">Live AI generated conversations in Unity</a></p>
                 </div>
             </div>
         </section>
@@ -188,6 +235,5 @@
         <a href="https://codepen.io/eerk">CodePen</a> | 
         <a href="https://glitch.com/@KokoDoko">Glitch</a>
     </footer>
-
 </body>
 </html>

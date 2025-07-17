@@ -8,6 +8,13 @@
     width: 100%;
     /* max-width: 600px; */
     margin: 0 auto;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.carousel a, .carousel a * {
+    user-select: text;
+    -webkit-user-select: text;
 }
 
 .carousel-container {
@@ -153,7 +160,8 @@
     }
 
     .carousel-container-large {
-        height: 500px;
+        height: 300px; /* smaller on mobile */
+        background-size: contain;
     }
 
     .carousel-content h3 {

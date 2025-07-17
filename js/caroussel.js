@@ -39,3 +39,24 @@ slides.forEach((slide, index) => {
     
     dotsContainer.appendChild(dot);
 });
+
+// Auto-transition slides every 2 seconds
+let currentSlideIndex = 0;
+const totalSlides = slides.length;
+
+setInterval(() => {
+    // Move to next slide
+    currentSlideIndex = (currentSlideIndex + 1) % totalSlides;
+    
+    // Remove active class from all slides and dots
+    slides.forEach(slide => {
+        slide.classList.remove('active');
+    });
+    document.querySelectorAll('.dot').forEach(d => {
+        d.classList.remove('active');
+    });
+    
+    // Add active class to current slide and dot
+    slides[currentSlideIndex].classList.add('active');
+    document.querySelectorAll('.dot')[currentSlideIndex].classList.add('active');
+}, 3000);

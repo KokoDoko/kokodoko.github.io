@@ -111,6 +111,11 @@ pre {
     overflow: hidden;
 }
 
+.multi-link {
+    margin-top:10px;
+    font-style: italic;
+    opacity:0.8;
+}
 
 
 .grid-container-2,

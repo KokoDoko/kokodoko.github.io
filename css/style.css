@@ -4,10 +4,20 @@
 body {
     font-family: sans-serif;
     line-height: 1.6;
+    height: 100%;
     margin: 20px;
     background-color: light-dark(#f4f4f4, #261d3b);
     /* background: linear-gradient(135deg, #667eea35 0%, #764ba23f 100%); */
     color: light-dark(#333, #eee);
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent;
+    z-index: -1;
+    overflow: hidden;
 }
 
 h1, h2, h3 {

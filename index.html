@@ -24,72 +24,35 @@
     </header>
 
     <main>
-        <section id="tutorials">
-            <h2>Creative AI</h2>
-            <div class="carousel">
-                <div class="carousel-container">
-                    <div class="carousel-slide active" data-bg-image="./images/bg.png">
-                        <div class="carousel-content">
-                            <h3>Creative AI</h3>
-                            <p>A few slides from recent <em>Creative AI</em> presentations</p>
-                            <!-- <span class="carousel-link coming-soon">Coming Soon</span> -->
-                            <a href="./blog/creative-ai/" class="carousel-link">Read more</a>
-
-                        </div>
-                    </div>
-                    <div class="carousel-slide" data-bg-image="./images/neuralnetwork.jpg">
-                        <div class="carousel-content">
-                            <h3>Getting started with TensorFlow</h3>
-                            <p>Learn the fundamentals of Machine Learning in the browser</p>
-                            <a href="./blog/tensorflow/" class="carousel-link">Read Tutorial</a>
-                        </div>
-                    </div>
-                    <div class="carousel-slide" data-bg-image="./images/blockavatar.png">
-                        <div class="carousel-content">
-                            <h3>Generate in-game 3D content</h3>
-                            <p>Create dynamic 3D content using AI for your games and applications</p>
-                            <a href="./blog/blocky/" class="carousel-link">Read Tutorial</a>
-                        </div>
-                    </div>
-                    <div class="carousel-slide" data-bg-image="./images/cmgt-vr.png">
-                        <div class="carousel-content">
-                            <h3>Getting started with WebXR</h3>
-                            <p>Build immersive XR experiences directly in the web browser</p>
-                            <span class="carousel-link coming-soon">Coming Soon</span>
-                        </div>
-                    </div>
-                    <div class="carousel-slide" data-bg-image="./images/ai-conversations-in-unity.png">
-                        <div class="carousel-content">
-                            <h3>Generating conversations in Unity</h3>
-                            <p>How to build a component that lets NPCs speak to each other</p>
-                            <span class="carousel-link coming-soon">Coming Soon</span>
-                        </div>
-                    </div>
-                    <div class="carousel-slide" data-bg-image="./images/avatar-screenshot.png">
-                        <div class="carousel-content">
-                            <h3>Can a large language model think visually?</h3>
-                            <p>Exploring the visual imagination capabilities of modern AI language models</p>
-                            <a href="./blog/blocky/" class="carousel-link">Read Tutorial</a>
-                        </div>
-                    </div>
-                    <div class="carousel-slide" data-bg-image="./images/llm-3d.png">
-                        <div class="carousel-content">
-                            <h3>Inside a large language model</h3>
-                            <p>Visualize a large language model in 3D</p>
-                            <a href="https://kokodoko.github.io/llm-3d/" class="carousel-link">Read Tutorial</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-dots"></div>
-            </div>
-        </section>
-
         <section id="recent">
-            <h2>Recent</h2>
+            <h2>Recent experiments</h2>
             <div class="grid-container-4">
                 <div class="grid-item">
+                    <img src="./images/einstein.png" alt="Einstein">
+                    <p>Chat with an interactive AI driven Einstein avatar</p>
+                    <p><em>Integrating a Flowise AI Agent in a custom user interface</em></p>
+                    <a href="https://einstein-assistant.vercel.app">Chat with Einstein</a>
+                </div>
+                <div class="grid-item">
+                    <img src="./images/sniffletown.png" alt="Sniffletown">
+                    <p>Go on an AI driven adventure game</p>
+                    <p><em>A language model generates the story, keeps track of player progress, and builds the user interface</em></p>
+
+                    <a href="./images/sniffletown-full.png">Screenshot</a>
+                </div>
+                <div class="grid-item">
+                    <img src="./images/protone.png" alt="Creative AI">
+                    <p>A few slides from recent <em>Creative AI</em> presentations</p>
+                    <a href="./blog/creative-ai/">Read more</a>
+                </div>
+                <div class="grid-item">
+                    <img src="./images/neuralnetwork.jpg" alt="Getting started with TensorFlow">
+                    <p>Tutorial for creating a Neural Network with TensorFlow</p>
+                    <a href="./blog/tensorflow/">Read Tutorial</a>
+                </div>
+                <div class="grid-item">
                     <img src="./images/hedgehog.png" alt="Forest Creatures">
-                    <p>Using AI to prompt a stable diffusion image generator</p><a href="https://github.com/KokoDoko/ComfyGPT">read more</a></p>
+                    <p>ComfyUI plugin for generating interesting variations in AI images</p><a href="https://github.com/KokoDoko/ComfyGPT">read more</a></p>
                 </div>
                 <div class="grid-item">
                     <img src="./images/avatar-screenshot.png" alt="Live Game Avatar Generator">
@@ -102,14 +65,26 @@
                 </div>
                 <div class="grid-item">
                     <img src="./images/ai-conversations-in-unity.png" alt="AI Conversations in Unity">
-                    <p><a href="https://www.youtube.com/watch?v=gGeUM150Kbw">Live AI generated conversations in Unity</a></p>
+                    <p>Unity Plugin for generating live conversations between different personalities</p>
+                    <p><a href="https://www.youtube.com/watch?v=gGeUM150Kbw">View on Youtube</a></p>
                 </div>
-            </div>
-        </section>
-
-        <section id="vr">
-            <h2>XR</h2>
-            <div class="grid-container-2">
+                <!-- 
+                <div class="grid-item">
+                    <img src="./images/ai.png" alt="AI Image">
+                    <a href="https://ai-assistent-mu.vercel.app">Chatbot for programming course</a>
+                    <p>This AI is trained to help students with study materials</p>
+                </div>
+                -->
+                <div class="grid-item">
+                    <img src="./images/posepong.png" alt="Pose Pong">
+                    <a href="https://www.youtube.com/watch?v=DMebdxAp0j0">Control PONG with your body</a>
+                    <p>Pose detection in the browser</p>
+                </div>
+                <div class="grid-item">
+                    <img src="./images/birdyflap.gif" alt="Birdy Flap">
+                    <a href="https://kokodoko.github.io/flappy-evolution/">Self-learning flappy bird</a>
+                    <p>Neural evolution teaches flappy to fly forever. <a href="https://github.com/KokoDoko/flappy-evolution/">Blog post.</a></p>
+                </div>
                 <div class="grid-item">
                     <img src="./images/cmgt-vr.png" alt="CMGT VR">
                     <a href="https://kokodoko.github.io/cmgt-logo-xr/">Web XR Animated Logo</a>
@@ -123,26 +98,9 @@
             </div>
         </section>
 
-        <section id="ai">
-            <h2>AI</h2>
-            <div class="grid-container-3">
-                <div class="grid-item">
-                    <img src="./images/ai.png" alt="AI Image">
-                    <a href="https://ai-assistent-mu.vercel.app">Chatbot for programming course</a>
-                    <p>This AI is trained to help students with study materials</p>
-                </div>
-                <div class="grid-item">
-                    <img src="./images/posepong.png" alt="Pose Pong">
-                    <a href="https://www.youtube.com/watch?v=DMebdxAp0j0">Control PONG with your body</a>
-                    <p>Pose detection in the browser</p>
-                </div>
-                <div class="grid-item">
-                    <img src="./images/birdyflap.gif" alt="Birdy Flap">
-                    <a href="https://kokodoko.github.io/flappy-evolution/">Self-learning flappy bird</a>
-                    <p>Neural evolution teaches flappy to fly forever. <a href="https://github.com/KokoDoko/flappy-evolution/">Blog post.</a></p>
-                </div>
-            </div>
-        </section>
+      
+
+       
 
         <section id="university-projects">
             <h2>University Projects</h2>

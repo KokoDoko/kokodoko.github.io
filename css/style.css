@@ -2,13 +2,19 @@
     color-scheme: light dark;
 }
 body {
-    font-family: sans-serif;
+    font-family: 'Inter', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
     line-height: 1.6;
+    
     height: 100%;
     margin: 20px;
+    background: linear-gradient(135deg, #470641 0%, #2c035d 100%);
     background-color: light-dark(#f4f4f4, #261d3b);
     /* background: linear-gradient(135deg, #667eea35 0%, #764ba23f 100%); */
     color: light-dark(#333, #eee);
+    /* background-image: url('../images/bg4.png'); */
+    /* background-attachment: fixed; */
+    /* background-size: cover; */
+    /* background-position: center; */
 }
 
 canvas {
@@ -56,13 +62,16 @@ footer {
     max-width: 960px;
     margin: 0 auto;
     padding: 20px;
-    background: light-dark(#ffffffce, #1e1e1e88);
+    font-weight: 300;
+    /* background: light-dark(#ffffffce, #1e1e1e88); */
     border-radius: 8px;
 }
 
 section {
     padding: 20px;
-    background: light-dark(#ffffffce, #1e1e1e88);
+    background: light-dark(#ffffff46, #1e1e1e29);
+    border: 1px solid light-dark(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1));
+    /* backdrop-filter: blur(2px); */
     border-radius: 8px;
     margin-bottom: 30px;
     padding-bottom: 20px;
@@ -148,7 +157,12 @@ pre {
 }
 
 .grid-item {
-    background: light-dark(#f9f9f9, #2c2c2c93);
+    /* background: light-dark(#f9f9f9, #2c2c2c93); */
+
+    background: linear-gradient(to bottom, light-dark(#ffffff66, #ffffff00), light-dark(#ffffffaa, #ffffff14));
+    /* background: light-dark(#ffffff46, #88888829); */
+    /* border: 1px solid light-dark(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.1)); */
+
     padding: 15px;
     border-radius: 5px;
     text-align: center;

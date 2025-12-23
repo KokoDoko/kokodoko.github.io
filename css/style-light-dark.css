@@ -1,14 +1,19 @@
+/* backup with light and dark mode */
+/* TODO LIGHT MODE NOT GREAT */
+
 :root {
-    color-scheme: dark;
+    color-scheme: light dark;
 }
+
 body {
     font-family: 'Inter', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
     line-height: 1.6;
-    
+
     height: 100%;
     margin: 20px;
+    /* background-color: light-dark(#f4f4f4, #0c0321); */
     background: linear-gradient(135deg, #3d0438 0%, #200245 100%);
-    color: #eee;
+    color: light-dark(#333, #eee);
 }
 
 canvas {
@@ -20,7 +25,9 @@ canvas {
     overflow: hidden;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Inter', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
     font-weight: 300;
     letter-spacing: 0.02em;
@@ -34,17 +41,17 @@ h1, h2, h3 {
 
 a,
 a:visited {
-    color: #8ecaff;
+    color: light-dark(#0056b3, #8ecaff);
 }
 
 a:hover,
 a:focus {
-    color: #b3e0ff;
+    color: light-dark(#003366, #b3e0ff);
     text-decoration: underline;
 }
 
 a:active {
-    color: #ccecff;
+    color: light-dark(#002244, #ccecff);
 }
 
 * {
@@ -57,15 +64,16 @@ footer {
     margin: 0 auto;
     padding: 20px;
     font-weight: 300;
-    color: #ffffffce;
+    color: light-dark(#1e1e1e88, #ffffffce);
     border-radius: 8px;
 }
 
 section {
     padding: 20px;
-    background: #1e1e1e29;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(2px); /* ISSUES WITH LARGE CANVAS */
+    background: light-dark(#ffffff46, #1e1e1e29);
+    border: 1px solid light-dark(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1));
+    backdrop-filter: blur(2px);
+    /* ISSUES WITH LARGE CANVAS */
     border-radius: 8px;
     margin-bottom: 30px;
     padding-bottom: 20px;
@@ -88,12 +96,12 @@ header {
 
 h1,
 h2 {
-    color: #eee;
-    margin-top:0;
+    color: light-dark(#333, #eee);
+    margin-top: 0;
 }
 
 a {
-    color: #66b3ff;
+    color: light-dark(#007BFF, #66b3ff);
     text-decoration: none;
 }
 
@@ -104,17 +112,17 @@ a:hover {
 
 
 #tags .keyword {
-    background: #022a3a78;
+    background: light-dark(#e8f4f8, #022a3a78);
     padding: 3px 14px;
     border-radius: 12px;
     font-size: 0.9em;
     opacity: 0.8;
     display: inline-block;
-    margin:2px;
+    margin: 2px;
 }
 
 figure .illustration {
-    width:100%;
+    width: 100%;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -125,9 +133,9 @@ pre {
 }
 
 .multi-link {
-    margin-top:10px;
+    margin-top: 10px;
     font-style: italic;
-    opacity:0.8;
+    opacity: 0.8;
 }
 
 
@@ -151,7 +159,12 @@ pre {
 }
 
 .grid-item {
-    background: linear-gradient(to bottom, #ffffff00, #ffffff14);
+    /* background: light-dark(#f9f9f9, #2c2c2c93); */
+
+    background: linear-gradient(to bottom, light-dark(#ffffff66, #ffffff00), light-dark(#ffffffaa, #ffffff14));
+    /* background: light-dark(#ffffff46, #88888829); */
+    /* border: 1px solid light-dark(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.1)); */
+
     padding: 15px;
     border-radius: 5px;
     text-align: center;
@@ -167,20 +180,20 @@ pre {
 
 .grid-item p {
     font-size: 0.9em;
-    color: #ccc;
+    color: light-dark(#555, #ccc);
 }
 
 .quote {
     font-style: italic;
     text-align: center;
     margin-top: 20px;
-    color: #ccc;
+    color: light-dark(#555, #ccc);
 }
 
 /*
 ul {
     list-style: none; */
-    /* padding: 0;
+/* padding: 0;
 }
 ul li {
     margin-bottom: 10px;

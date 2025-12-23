@@ -9,7 +9,7 @@ class CanvasBG {
         this.lineLength = options.lineLength || { min: 160, max: 320 };
         this.animationRunning = false;
         this.lineCount = 0;
-        // this.fadeThreshold = 100;
+        this.fadeThreshold = 50;
 
         this.selectedAngles = [
             -Math.PI / 6,         // -30° - up 30 degrees
@@ -25,7 +25,7 @@ class CanvasBG {
         window.addEventListener('resize', () => this.resizeCanvas());
 
         // Also listen for scroll events in case content changes
-        window.addEventListener('scroll', () => this.resizeCanvas());
+        // window.addEventListener('scroll', () => this.resizeCanvas());
 
         // Use a ResizeObserver to detect when document size changes
         if (window.ResizeObserver) {
@@ -38,20 +38,8 @@ class CanvasBG {
 
     resizeCanvas() {
         const fullWidth = document.documentElement.clientWidth;
-
-        // For height, get the full document height so canvas covers all scrollable content
-        const body = document.body;
-        const html = document.documentElement;
-
-        const fullHeight = Math.max(
-            body.scrollHeight,
-            body.offsetHeight,
-            html.clientHeight,
-            html.scrollHeight,
-            html.offsetHeight,
-            window.innerHeight
-        );
-
+        const fullHeight = window.innerHeight;
+    
         // Only resize if dimensions have changed to avoid unnecessary redraws
         if (this.canvas.width !== fullWidth || this.canvas.height !== fullHeight) {
             this.canvas.width = fullWidth;
@@ -59,11 +47,12 @@ class CanvasBG {
         }
     }
 
+
     drawRandomLine() {
-        // Apply fade effect if we've drawn more than 100 lines
-        // if (this.lineCount >= this.fadeThreshold) {
-        //     this.applyFadeEffect();
-        // }
+        // Apply fade effect if we've drawn more than n lines
+        if (this.lineCount >= this.fadeThreshold) {
+            this.applyFadeEffect();
+        }
 
         // random start point with X as multiple of size
         const gridX = Math.floor(Math.random() * (this.canvas.width / this.size)) * this.size;
@@ -78,9 +67,9 @@ class CanvasBG {
         const endY = startY + Math.sin(angle) * length;
 
         const randomColors = [
-            { start: 'rgba(243, 28, 207, 0.5)', end: 'rgba(243, 28, 207, 0)' },
-            { start: 'rgba(121, 28, 243, 0.5)', end: 'rgba(121, 28, 243, 0)' },
-            { start: 'rgba(28, 75, 243, 0.5)', end: 'rgba(28, 75, 243, 0)' },
+            { start: 'rgba(243, 28, 207, 0.2)', end: 'rgba(243, 28, 207, 0)' },
+            { start: 'rgba(121, 28, 243, 0.2)', end: 'rgba(121, 28, 243, 0)' },
+            { start: 'rgba(28, 75, 243, 0.2)', end: 'rgba(28, 75, 243, 0)' },
         ]
         const colorSet = randomColors[Math.floor(Math.random() * randomColors.length)];
         const gradient = this.ctx.createLinearGradient(startX, startY, endX, endY);
@@ -120,11 +109,11 @@ class CanvasBG {
         animateLine();
     }
 
-    // applyFadeEffect() {
-    //     // Create a semi-transparent overlay to fade existing content
-    //     this.ctx.fillStyle = 'rgba(82, 20, 133, 0.02)'; // Very subtle fade using background color
-    //     this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
-    // }
+    applyFadeEffect() {
+        // Create a semi-transparent overlay to fade existing content
+        this.ctx.fillStyle = 'rgba(39, 6, 67, 0.02)'; // Very subtle fade using background color
+        this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
+    }
 
     drawMultipleLines() {
         for (let i = 0; i < 5; i++) {
